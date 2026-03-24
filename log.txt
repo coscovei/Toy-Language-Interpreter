@@ -1,0 +1,5907 @@
+
+================================================
+ExeStack:
+(Ref(int) v;(new(v, ValueExpression{val=20});(Ref(Ref(int)) a;(new(a, VariableExpression{id='v'});(new(v, ValueExpression{val=30});Print(rH(rH(VariableExpression{id='a'}))))))))
+
+SymTable:
+
+Out:
+
+Heap:
+{}
+FileTable:
+
+================================================
+
+
+================================================
+ExeStack:
+(new(v, ValueExpression{val=20});(Ref(Ref(int)) a;(new(a, VariableExpression{id='v'});(new(v, ValueExpression{val=30});Print(rH(rH(VariableExpression{id='a'})))))))
+Ref(int) v
+
+SymTable:
+
+Out:
+
+Heap:
+{}
+FileTable:
+
+================================================
+
+
+================================================
+ExeStack:
+(new(v, ValueExpression{val=20});(Ref(Ref(int)) a;(new(a, VariableExpression{id='v'});(new(v, ValueExpression{val=30});Print(rH(rH(VariableExpression{id='a'})))))))
+Ref(int) v
+
+SymTable:
+
+Out:
+
+Heap:
+{}
+FileTable:
+
+================================================
+
+
+================================================
+ExeStack:
+(new(v, ValueExpression{val=20});(Ref(Ref(int)) a;(new(a, VariableExpression{id='v'});(new(v, ValueExpression{val=30});Print(rH(rH(VariableExpression{id='a'})))))))
+
+SymTable:
+v -> (0, int)
+
+Out:
+
+Heap:
+{}
+FileTable:
+
+================================================
+
+
+================================================
+ExeStack:
+(new(v, ValueExpression{val=20});(Ref(Ref(int)) a;(new(a, VariableExpression{id='v'});(new(v, ValueExpression{val=30});Print(rH(rH(VariableExpression{id='a'})))))))
+
+SymTable:
+v -> (0, int)
+
+Out:
+
+Heap:
+{}
+FileTable:
+
+================================================
+
+
+================================================
+ExeStack:
+(Ref(Ref(int)) a;(new(a, VariableExpression{id='v'});(new(v, ValueExpression{val=30});Print(rH(rH(VariableExpression{id='a'}))))))
+new(v, ValueExpression{val=20})
+
+SymTable:
+v -> (0, int)
+
+Out:
+
+Heap:
+{}
+FileTable:
+
+================================================
+
+
+================================================
+ExeStack:
+(Ref(Ref(int)) a;(new(a, VariableExpression{id='v'});(new(v, ValueExpression{val=30});Print(rH(rH(VariableExpression{id='a'}))))))
+new(v, ValueExpression{val=20})
+
+SymTable:
+v -> (0, int)
+
+Out:
+
+Heap:
+{}
+FileTable:
+
+================================================
+
+
+================================================
+ExeStack:
+(Ref(Ref(int)) a;(new(a, VariableExpression{id='v'});(new(v, ValueExpression{val=30});Print(rH(rH(VariableExpression{id='a'}))))))
+
+SymTable:
+v -> (1, int)
+
+Out:
+
+Heap:
+{1=20}
+FileTable:
+
+================================================
+
+
+================================================
+ExeStack:
+(Ref(Ref(int)) a;(new(a, VariableExpression{id='v'});(new(v, ValueExpression{val=30});Print(rH(rH(VariableExpression{id='a'}))))))
+
+SymTable:
+v -> (1, int)
+
+Out:
+
+Heap:
+{1=20}
+FileTable:
+
+================================================
+
+
+================================================
+ExeStack:
+(new(a, VariableExpression{id='v'});(new(v, ValueExpression{val=30});Print(rH(rH(VariableExpression{id='a'})))))
+Ref(Ref(int)) a
+
+SymTable:
+v -> (1, int)
+
+Out:
+
+Heap:
+{1=20}
+FileTable:
+
+================================================
+
+
+================================================
+ExeStack:
+(new(a, VariableExpression{id='v'});(new(v, ValueExpression{val=30});Print(rH(rH(VariableExpression{id='a'})))))
+Ref(Ref(int)) a
+
+SymTable:
+v -> (1, int)
+
+Out:
+
+Heap:
+{1=20}
+FileTable:
+
+================================================
+
+
+================================================
+ExeStack:
+(new(a, VariableExpression{id='v'});(new(v, ValueExpression{val=30});Print(rH(rH(VariableExpression{id='a'})))))
+
+SymTable:
+a -> (0, Ref(int))
+v -> (1, int)
+
+Out:
+
+Heap:
+{1=20}
+FileTable:
+
+================================================
+
+
+================================================
+ExeStack:
+(new(a, VariableExpression{id='v'});(new(v, ValueExpression{val=30});Print(rH(rH(VariableExpression{id='a'})))))
+
+SymTable:
+a -> (0, Ref(int))
+v -> (1, int)
+
+Out:
+
+Heap:
+{1=20}
+FileTable:
+
+================================================
+
+
+================================================
+ExeStack:
+(new(v, ValueExpression{val=30});Print(rH(rH(VariableExpression{id='a'}))))
+new(a, VariableExpression{id='v'})
+
+SymTable:
+a -> (0, Ref(int))
+v -> (1, int)
+
+Out:
+
+Heap:
+{1=20}
+FileTable:
+
+================================================
+
+
+================================================
+ExeStack:
+(new(v, ValueExpression{val=30});Print(rH(rH(VariableExpression{id='a'}))))
+new(a, VariableExpression{id='v'})
+
+SymTable:
+a -> (0, Ref(int))
+v -> (1, int)
+
+Out:
+
+Heap:
+{1=20}
+FileTable:
+
+================================================
+
+
+================================================
+ExeStack:
+(new(v, ValueExpression{val=30});Print(rH(rH(VariableExpression{id='a'}))))
+
+SymTable:
+a -> (2, Ref(int))
+v -> (1, int)
+
+Out:
+
+Heap:
+{1=20, 2=(1, int)}
+FileTable:
+
+================================================
+
+
+================================================
+ExeStack:
+(new(v, ValueExpression{val=30});Print(rH(rH(VariableExpression{id='a'}))))
+
+SymTable:
+a -> (2, Ref(int))
+v -> (1, int)
+
+Out:
+
+Heap:
+{1=20, 2=(1, int)}
+FileTable:
+
+================================================
+
+
+================================================
+ExeStack:
+Print(rH(rH(VariableExpression{id='a'})))
+new(v, ValueExpression{val=30})
+
+SymTable:
+a -> (2, Ref(int))
+v -> (1, int)
+
+Out:
+
+Heap:
+{1=20, 2=(1, int)}
+FileTable:
+
+================================================
+
+
+================================================
+ExeStack:
+Print(rH(rH(VariableExpression{id='a'})))
+new(v, ValueExpression{val=30})
+
+SymTable:
+a -> (2, Ref(int))
+v -> (1, int)
+
+Out:
+
+Heap:
+{1=20, 2=(1, int)}
+FileTable:
+
+================================================
+
+
+================================================
+ExeStack:
+Print(rH(rH(VariableExpression{id='a'})))
+
+SymTable:
+a -> (2, Ref(int))
+v -> (3, int)
+
+Out:
+
+Heap:
+{1=20, 2=(1, int), 3=30}
+FileTable:
+
+================================================
+
+
+================================================
+ExeStack:
+Print(rH(rH(VariableExpression{id='a'})))
+
+SymTable:
+a -> (2, Ref(int))
+v -> (3, int)
+
+Out:
+
+Heap:
+{1=20, 2=(1, int), 3=30}
+FileTable:
+
+================================================
+
+
+================================================
+ExeStack:
+
+SymTable:
+a -> (2, Ref(int))
+v -> (3, int)
+
+Out:
+20
+
+Heap:
+{1=20, 2=(1, int), 3=30}
+FileTable:
+
+================================================
+
+
+================================================
+ExeStack:
+
+SymTable:
+a -> (2, Ref(int))
+v -> (3, int)
+
+Out:
+20
+
+Heap:
+{1=20, 2=(1, int), 3=30}
+FileTable:
+
+================================================
+
+
+================================================
+Id=1
+ExeStack:
+(int v;(v=ValueExpression{val=2};Print(VariableExpression{id='v'})))
+
+SymTable:
+
+Out:
+
+Heap:
+{}
+FileTable:
+
+================================================
+
+
+================================================
+Id=1
+ExeStack:
+(v=ValueExpression{val=2};Print(VariableExpression{id='v'}))
+int v
+
+SymTable:
+
+Out:
+
+Heap:
+{}
+FileTable:
+
+================================================
+
+
+================================================
+Id=1
+ExeStack:
+(v=ValueExpression{val=2};Print(VariableExpression{id='v'}))
+int v
+
+SymTable:
+
+Out:
+
+Heap:
+{}
+FileTable:
+
+================================================
+
+
+================================================
+Id=1
+ExeStack:
+(v=ValueExpression{val=2};Print(VariableExpression{id='v'}))
+
+SymTable:
+v -> 0
+
+Out:
+
+Heap:
+{}
+FileTable:
+
+================================================
+
+
+================================================
+Id=1
+ExeStack:
+(v=ValueExpression{val=2};Print(VariableExpression{id='v'}))
+
+SymTable:
+v -> 0
+
+Out:
+
+Heap:
+{}
+FileTable:
+
+================================================
+
+
+================================================
+Id=1
+ExeStack:
+Print(VariableExpression{id='v'})
+v=ValueExpression{val=2}
+
+SymTable:
+v -> 0
+
+Out:
+
+Heap:
+{}
+FileTable:
+
+================================================
+
+
+================================================
+Id=1
+ExeStack:
+Print(VariableExpression{id='v'})
+v=ValueExpression{val=2}
+
+SymTable:
+v -> 0
+
+Out:
+
+Heap:
+{}
+FileTable:
+
+================================================
+
+
+================================================
+Id=1
+ExeStack:
+Print(VariableExpression{id='v'})
+
+SymTable:
+v -> 2
+
+Out:
+
+Heap:
+{}
+FileTable:
+
+================================================
+
+
+================================================
+Id=1
+ExeStack:
+Print(VariableExpression{id='v'})
+
+SymTable:
+v -> 2
+
+Out:
+
+Heap:
+{}
+FileTable:
+
+================================================
+
+
+================================================
+Id=1
+ExeStack:
+
+SymTable:
+v -> 2
+
+Out:
+2
+
+Heap:
+{}
+FileTable:
+
+================================================
+
+
+================================================
+Id=2
+ExeStack:
+(int a;(int b;(a=ValueExpression{val=2} + ValueExpression{val=3} * ValueExpression{val=5};(b=VariableExpression{id='a'} + ValueExpression{val=1};Print(VariableExpression{id='b'})))))
+
+SymTable:
+
+Out:
+
+Heap:
+{}
+FileTable:
+
+================================================
+
+
+================================================
+Id=2
+ExeStack:
+(int b;(a=ValueExpression{val=2} + ValueExpression{val=3} * ValueExpression{val=5};(b=VariableExpression{id='a'} + ValueExpression{val=1};Print(VariableExpression{id='b'}))))
+int a
+
+SymTable:
+
+Out:
+
+Heap:
+{}
+FileTable:
+
+================================================
+
+
+================================================
+Id=2
+ExeStack:
+(int b;(a=ValueExpression{val=2} + ValueExpression{val=3} * ValueExpression{val=5};(b=VariableExpression{id='a'} + ValueExpression{val=1};Print(VariableExpression{id='b'}))))
+int a
+
+SymTable:
+
+Out:
+
+Heap:
+{}
+FileTable:
+
+================================================
+
+
+================================================
+Id=2
+ExeStack:
+(int b;(a=ValueExpression{val=2} + ValueExpression{val=3} * ValueExpression{val=5};(b=VariableExpression{id='a'} + ValueExpression{val=1};Print(VariableExpression{id='b'}))))
+
+SymTable:
+a -> 0
+
+Out:
+
+Heap:
+{}
+FileTable:
+
+================================================
+
+
+================================================
+Id=2
+ExeStack:
+(int b;(a=ValueExpression{val=2} + ValueExpression{val=3} * ValueExpression{val=5};(b=VariableExpression{id='a'} + ValueExpression{val=1};Print(VariableExpression{id='b'}))))
+
+SymTable:
+a -> 0
+
+Out:
+
+Heap:
+{}
+FileTable:
+
+================================================
+
+
+================================================
+Id=2
+ExeStack:
+(a=ValueExpression{val=2} + ValueExpression{val=3} * ValueExpression{val=5};(b=VariableExpression{id='a'} + ValueExpression{val=1};Print(VariableExpression{id='b'})))
+int b
+
+SymTable:
+a -> 0
+
+Out:
+
+Heap:
+{}
+FileTable:
+
+================================================
+
+
+================================================
+Id=2
+ExeStack:
+(a=ValueExpression{val=2} + ValueExpression{val=3} * ValueExpression{val=5};(b=VariableExpression{id='a'} + ValueExpression{val=1};Print(VariableExpression{id='b'})))
+int b
+
+SymTable:
+a -> 0
+
+Out:
+
+Heap:
+{}
+FileTable:
+
+================================================
+
+
+================================================
+Id=2
+ExeStack:
+(a=ValueExpression{val=2} + ValueExpression{val=3} * ValueExpression{val=5};(b=VariableExpression{id='a'} + ValueExpression{val=1};Print(VariableExpression{id='b'})))
+
+SymTable:
+a -> 0
+b -> 0
+
+Out:
+
+Heap:
+{}
+FileTable:
+
+================================================
+
+
+================================================
+Id=2
+ExeStack:
+(a=ValueExpression{val=2} + ValueExpression{val=3} * ValueExpression{val=5};(b=VariableExpression{id='a'} + ValueExpression{val=1};Print(VariableExpression{id='b'})))
+
+SymTable:
+a -> 0
+b -> 0
+
+Out:
+
+Heap:
+{}
+FileTable:
+
+================================================
+
+
+================================================
+Id=2
+ExeStack:
+(b=VariableExpression{id='a'} + ValueExpression{val=1};Print(VariableExpression{id='b'}))
+a=ValueExpression{val=2} + ValueExpression{val=3} * ValueExpression{val=5}
+
+SymTable:
+a -> 0
+b -> 0
+
+Out:
+
+Heap:
+{}
+FileTable:
+
+================================================
+
+
+================================================
+Id=2
+ExeStack:
+(b=VariableExpression{id='a'} + ValueExpression{val=1};Print(VariableExpression{id='b'}))
+a=ValueExpression{val=2} + ValueExpression{val=3} * ValueExpression{val=5}
+
+SymTable:
+a -> 0
+b -> 0
+
+Out:
+
+Heap:
+{}
+FileTable:
+
+================================================
+
+
+================================================
+Id=2
+ExeStack:
+(b=VariableExpression{id='a'} + ValueExpression{val=1};Print(VariableExpression{id='b'}))
+
+SymTable:
+a -> 17
+b -> 0
+
+Out:
+
+Heap:
+{}
+FileTable:
+
+================================================
+
+
+================================================
+Id=2
+ExeStack:
+(b=VariableExpression{id='a'} + ValueExpression{val=1};Print(VariableExpression{id='b'}))
+
+SymTable:
+a -> 17
+b -> 0
+
+Out:
+
+Heap:
+{}
+FileTable:
+
+================================================
+
+
+================================================
+Id=2
+ExeStack:
+Print(VariableExpression{id='b'})
+b=VariableExpression{id='a'} + ValueExpression{val=1}
+
+SymTable:
+a -> 17
+b -> 0
+
+Out:
+
+Heap:
+{}
+FileTable:
+
+================================================
+
+
+================================================
+Id=2
+ExeStack:
+Print(VariableExpression{id='b'})
+b=VariableExpression{id='a'} + ValueExpression{val=1}
+
+SymTable:
+a -> 17
+b -> 0
+
+Out:
+
+Heap:
+{}
+FileTable:
+
+================================================
+
+
+================================================
+Id=2
+ExeStack:
+Print(VariableExpression{id='b'})
+
+SymTable:
+a -> 17
+b -> 18
+
+Out:
+
+Heap:
+{}
+FileTable:
+
+================================================
+
+
+================================================
+Id=2
+ExeStack:
+Print(VariableExpression{id='b'})
+
+SymTable:
+a -> 17
+b -> 18
+
+Out:
+
+Heap:
+{}
+FileTable:
+
+================================================
+
+
+================================================
+Id=2
+ExeStack:
+
+SymTable:
+a -> 17
+b -> 18
+
+Out:
+18
+
+Heap:
+{}
+FileTable:
+
+================================================
+
+
+================================================
+Id=3
+ExeStack:
+(bool a;(int v;(a=ValueExpression{val=true};(if(VariableExpression{id='a'}){v=ValueExpression{val=2}}else{v=ValueExpression{val=3}};Print(VariableExpression{id='v'})))))
+
+SymTable:
+
+Out:
+
+Heap:
+{}
+FileTable:
+
+================================================
+
+
+================================================
+Id=3
+ExeStack:
+(int v;(a=ValueExpression{val=true};(if(VariableExpression{id='a'}){v=ValueExpression{val=2}}else{v=ValueExpression{val=3}};Print(VariableExpression{id='v'}))))
+bool a
+
+SymTable:
+
+Out:
+
+Heap:
+{}
+FileTable:
+
+================================================
+
+
+================================================
+Id=3
+ExeStack:
+(int v;(a=ValueExpression{val=true};(if(VariableExpression{id='a'}){v=ValueExpression{val=2}}else{v=ValueExpression{val=3}};Print(VariableExpression{id='v'}))))
+bool a
+
+SymTable:
+
+Out:
+
+Heap:
+{}
+FileTable:
+
+================================================
+
+
+================================================
+Id=3
+ExeStack:
+(int v;(a=ValueExpression{val=true};(if(VariableExpression{id='a'}){v=ValueExpression{val=2}}else{v=ValueExpression{val=3}};Print(VariableExpression{id='v'}))))
+
+SymTable:
+a -> false
+
+Out:
+
+Heap:
+{}
+FileTable:
+
+================================================
+
+
+================================================
+Id=3
+ExeStack:
+(int v;(a=ValueExpression{val=true};(if(VariableExpression{id='a'}){v=ValueExpression{val=2}}else{v=ValueExpression{val=3}};Print(VariableExpression{id='v'}))))
+
+SymTable:
+a -> false
+
+Out:
+
+Heap:
+{}
+FileTable:
+
+================================================
+
+
+================================================
+Id=3
+ExeStack:
+(a=ValueExpression{val=true};(if(VariableExpression{id='a'}){v=ValueExpression{val=2}}else{v=ValueExpression{val=3}};Print(VariableExpression{id='v'})))
+int v
+
+SymTable:
+a -> false
+
+Out:
+
+Heap:
+{}
+FileTable:
+
+================================================
+
+
+================================================
+Id=3
+ExeStack:
+(a=ValueExpression{val=true};(if(VariableExpression{id='a'}){v=ValueExpression{val=2}}else{v=ValueExpression{val=3}};Print(VariableExpression{id='v'})))
+int v
+
+SymTable:
+a -> false
+
+Out:
+
+Heap:
+{}
+FileTable:
+
+================================================
+
+
+================================================
+Id=3
+ExeStack:
+(a=ValueExpression{val=true};(if(VariableExpression{id='a'}){v=ValueExpression{val=2}}else{v=ValueExpression{val=3}};Print(VariableExpression{id='v'})))
+
+SymTable:
+a -> false
+v -> 0
+
+Out:
+
+Heap:
+{}
+FileTable:
+
+================================================
+
+
+================================================
+Id=3
+ExeStack:
+(a=ValueExpression{val=true};(if(VariableExpression{id='a'}){v=ValueExpression{val=2}}else{v=ValueExpression{val=3}};Print(VariableExpression{id='v'})))
+
+SymTable:
+a -> false
+v -> 0
+
+Out:
+
+Heap:
+{}
+FileTable:
+
+================================================
+
+
+================================================
+Id=3
+ExeStack:
+(if(VariableExpression{id='a'}){v=ValueExpression{val=2}}else{v=ValueExpression{val=3}};Print(VariableExpression{id='v'}))
+a=ValueExpression{val=true}
+
+SymTable:
+a -> false
+v -> 0
+
+Out:
+
+Heap:
+{}
+FileTable:
+
+================================================
+
+
+================================================
+Id=3
+ExeStack:
+(if(VariableExpression{id='a'}){v=ValueExpression{val=2}}else{v=ValueExpression{val=3}};Print(VariableExpression{id='v'}))
+a=ValueExpression{val=true}
+
+SymTable:
+a -> false
+v -> 0
+
+Out:
+
+Heap:
+{}
+FileTable:
+
+================================================
+
+
+================================================
+Id=3
+ExeStack:
+(if(VariableExpression{id='a'}){v=ValueExpression{val=2}}else{v=ValueExpression{val=3}};Print(VariableExpression{id='v'}))
+
+SymTable:
+a -> true
+v -> 0
+
+Out:
+
+Heap:
+{}
+FileTable:
+
+================================================
+
+
+================================================
+Id=3
+ExeStack:
+(if(VariableExpression{id='a'}){v=ValueExpression{val=2}}else{v=ValueExpression{val=3}};Print(VariableExpression{id='v'}))
+
+SymTable:
+a -> true
+v -> 0
+
+Out:
+
+Heap:
+{}
+FileTable:
+
+================================================
+
+
+================================================
+Id=3
+ExeStack:
+Print(VariableExpression{id='v'})
+if(VariableExpression{id='a'}){v=ValueExpression{val=2}}else{v=ValueExpression{val=3}}
+
+SymTable:
+a -> true
+v -> 0
+
+Out:
+
+Heap:
+{}
+FileTable:
+
+================================================
+
+
+================================================
+Id=3
+ExeStack:
+Print(VariableExpression{id='v'})
+if(VariableExpression{id='a'}){v=ValueExpression{val=2}}else{v=ValueExpression{val=3}}
+
+SymTable:
+a -> true
+v -> 0
+
+Out:
+
+Heap:
+{}
+FileTable:
+
+================================================
+
+
+================================================
+Id=3
+ExeStack:
+Print(VariableExpression{id='v'})
+v=ValueExpression{val=2}
+
+SymTable:
+a -> true
+v -> 0
+
+Out:
+
+Heap:
+{}
+FileTable:
+
+================================================
+
+
+================================================
+Id=3
+ExeStack:
+Print(VariableExpression{id='v'})
+v=ValueExpression{val=2}
+
+SymTable:
+a -> true
+v -> 0
+
+Out:
+
+Heap:
+{}
+FileTable:
+
+================================================
+
+
+================================================
+Id=3
+ExeStack:
+Print(VariableExpression{id='v'})
+
+SymTable:
+a -> true
+v -> 2
+
+Out:
+
+Heap:
+{}
+FileTable:
+
+================================================
+
+
+================================================
+Id=3
+ExeStack:
+Print(VariableExpression{id='v'})
+
+SymTable:
+a -> true
+v -> 2
+
+Out:
+
+Heap:
+{}
+FileTable:
+
+================================================
+
+
+================================================
+Id=3
+ExeStack:
+
+SymTable:
+a -> true
+v -> 2
+
+Out:
+2
+
+Heap:
+{}
+FileTable:
+
+================================================
+
+
+================================================
+Id=8
+ExeStack:
+(int v;(Ref(int) a;(v=ValueExpression{val=10};(new(a, ValueExpression{val=22});(fork((wH(a, ValueExpression{val=30});(v=ValueExpression{val=32};(Print(VariableExpression{id='v'});Print(rH(VariableExpression{id='a'}))))));(Print(VariableExpression{id='v'});Print(rH(VariableExpression{id='a'}))))))))
+
+SymTable:
+
+Out:
+
+Heap:
+{}
+FileTable:
+
+================================================
+
+
+================================================
+Id=8
+ExeStack:
+(Ref(int) a;(v=ValueExpression{val=10};(new(a, ValueExpression{val=22});(fork((wH(a, ValueExpression{val=30});(v=ValueExpression{val=32};(Print(VariableExpression{id='v'});Print(rH(VariableExpression{id='a'}))))));(Print(VariableExpression{id='v'});Print(rH(VariableExpression{id='a'})))))))
+int v
+
+SymTable:
+
+Out:
+
+Heap:
+{}
+FileTable:
+
+================================================
+
+
+================================================
+Id=8
+ExeStack:
+(Ref(int) a;(v=ValueExpression{val=10};(new(a, ValueExpression{val=22});(fork((wH(a, ValueExpression{val=30});(v=ValueExpression{val=32};(Print(VariableExpression{id='v'});Print(rH(VariableExpression{id='a'}))))));(Print(VariableExpression{id='v'});Print(rH(VariableExpression{id='a'})))))))
+int v
+
+SymTable:
+
+Out:
+
+Heap:
+{}
+FileTable:
+
+================================================
+
+
+================================================
+Id=8
+ExeStack:
+(Ref(int) a;(v=ValueExpression{val=10};(new(a, ValueExpression{val=22});(fork((wH(a, ValueExpression{val=30});(v=ValueExpression{val=32};(Print(VariableExpression{id='v'});Print(rH(VariableExpression{id='a'}))))));(Print(VariableExpression{id='v'});Print(rH(VariableExpression{id='a'})))))))
+
+SymTable:
+v -> 0
+
+Out:
+
+Heap:
+{}
+FileTable:
+
+================================================
+
+
+================================================
+Id=8
+ExeStack:
+(Ref(int) a;(v=ValueExpression{val=10};(new(a, ValueExpression{val=22});(fork((wH(a, ValueExpression{val=30});(v=ValueExpression{val=32};(Print(VariableExpression{id='v'});Print(rH(VariableExpression{id='a'}))))));(Print(VariableExpression{id='v'});Print(rH(VariableExpression{id='a'})))))))
+
+SymTable:
+v -> 0
+
+Out:
+
+Heap:
+{}
+FileTable:
+
+================================================
+
+
+================================================
+Id=8
+ExeStack:
+(v=ValueExpression{val=10};(new(a, ValueExpression{val=22});(fork((wH(a, ValueExpression{val=30});(v=ValueExpression{val=32};(Print(VariableExpression{id='v'});Print(rH(VariableExpression{id='a'}))))));(Print(VariableExpression{id='v'});Print(rH(VariableExpression{id='a'}))))))
+Ref(int) a
+
+SymTable:
+v -> 0
+
+Out:
+
+Heap:
+{}
+FileTable:
+
+================================================
+
+
+================================================
+Id=8
+ExeStack:
+(v=ValueExpression{val=10};(new(a, ValueExpression{val=22});(fork((wH(a, ValueExpression{val=30});(v=ValueExpression{val=32};(Print(VariableExpression{id='v'});Print(rH(VariableExpression{id='a'}))))));(Print(VariableExpression{id='v'});Print(rH(VariableExpression{id='a'}))))))
+Ref(int) a
+
+SymTable:
+v -> 0
+
+Out:
+
+Heap:
+{}
+FileTable:
+
+================================================
+
+
+================================================
+Id=8
+ExeStack:
+(v=ValueExpression{val=10};(new(a, ValueExpression{val=22});(fork((wH(a, ValueExpression{val=30});(v=ValueExpression{val=32};(Print(VariableExpression{id='v'});Print(rH(VariableExpression{id='a'}))))));(Print(VariableExpression{id='v'});Print(rH(VariableExpression{id='a'}))))))
+
+SymTable:
+a -> (0, int)
+v -> 0
+
+Out:
+
+Heap:
+{}
+FileTable:
+
+================================================
+
+
+================================================
+Id=8
+ExeStack:
+(v=ValueExpression{val=10};(new(a, ValueExpression{val=22});(fork((wH(a, ValueExpression{val=30});(v=ValueExpression{val=32};(Print(VariableExpression{id='v'});Print(rH(VariableExpression{id='a'}))))));(Print(VariableExpression{id='v'});Print(rH(VariableExpression{id='a'}))))))
+
+SymTable:
+a -> (0, int)
+v -> 0
+
+Out:
+
+Heap:
+{}
+FileTable:
+
+================================================
+
+
+================================================
+Id=8
+ExeStack:
+(new(a, ValueExpression{val=22});(fork((wH(a, ValueExpression{val=30});(v=ValueExpression{val=32};(Print(VariableExpression{id='v'});Print(rH(VariableExpression{id='a'}))))));(Print(VariableExpression{id='v'});Print(rH(VariableExpression{id='a'})))))
+v=ValueExpression{val=10}
+
+SymTable:
+a -> (0, int)
+v -> 0
+
+Out:
+
+Heap:
+{}
+FileTable:
+
+================================================
+
+
+================================================
+Id=8
+ExeStack:
+(new(a, ValueExpression{val=22});(fork((wH(a, ValueExpression{val=30});(v=ValueExpression{val=32};(Print(VariableExpression{id='v'});Print(rH(VariableExpression{id='a'}))))));(Print(VariableExpression{id='v'});Print(rH(VariableExpression{id='a'})))))
+v=ValueExpression{val=10}
+
+SymTable:
+a -> (0, int)
+v -> 0
+
+Out:
+
+Heap:
+{}
+FileTable:
+
+================================================
+
+
+================================================
+Id=8
+ExeStack:
+(new(a, ValueExpression{val=22});(fork((wH(a, ValueExpression{val=30});(v=ValueExpression{val=32};(Print(VariableExpression{id='v'});Print(rH(VariableExpression{id='a'}))))));(Print(VariableExpression{id='v'});Print(rH(VariableExpression{id='a'})))))
+
+SymTable:
+a -> (0, int)
+v -> 10
+
+Out:
+
+Heap:
+{}
+FileTable:
+
+================================================
+
+
+================================================
+Id=8
+ExeStack:
+(new(a, ValueExpression{val=22});(fork((wH(a, ValueExpression{val=30});(v=ValueExpression{val=32};(Print(VariableExpression{id='v'});Print(rH(VariableExpression{id='a'}))))));(Print(VariableExpression{id='v'});Print(rH(VariableExpression{id='a'})))))
+
+SymTable:
+a -> (0, int)
+v -> 10
+
+Out:
+
+Heap:
+{}
+FileTable:
+
+================================================
+
+
+================================================
+Id=8
+ExeStack:
+(fork((wH(a, ValueExpression{val=30});(v=ValueExpression{val=32};(Print(VariableExpression{id='v'});Print(rH(VariableExpression{id='a'}))))));(Print(VariableExpression{id='v'});Print(rH(VariableExpression{id='a'}))))
+new(a, ValueExpression{val=22})
+
+SymTable:
+a -> (0, int)
+v -> 10
+
+Out:
+
+Heap:
+{}
+FileTable:
+
+================================================
+
+
+================================================
+Id=8
+ExeStack:
+(fork((wH(a, ValueExpression{val=30});(v=ValueExpression{val=32};(Print(VariableExpression{id='v'});Print(rH(VariableExpression{id='a'}))))));(Print(VariableExpression{id='v'});Print(rH(VariableExpression{id='a'}))))
+new(a, ValueExpression{val=22})
+
+SymTable:
+a -> (0, int)
+v -> 10
+
+Out:
+
+Heap:
+{}
+FileTable:
+
+================================================
+
+
+================================================
+Id=8
+ExeStack:
+(fork((wH(a, ValueExpression{val=30});(v=ValueExpression{val=32};(Print(VariableExpression{id='v'});Print(rH(VariableExpression{id='a'}))))));(Print(VariableExpression{id='v'});Print(rH(VariableExpression{id='a'}))))
+
+SymTable:
+a -> (1, int)
+v -> 10
+
+Out:
+
+Heap:
+{1=22}
+FileTable:
+
+================================================
+
+
+================================================
+Id=8
+ExeStack:
+(fork((wH(a, ValueExpression{val=30});(v=ValueExpression{val=32};(Print(VariableExpression{id='v'});Print(rH(VariableExpression{id='a'}))))));(Print(VariableExpression{id='v'});Print(rH(VariableExpression{id='a'}))))
+
+SymTable:
+a -> (1, int)
+v -> 10
+
+Out:
+
+Heap:
+{1=22}
+FileTable:
+
+================================================
+
+
+================================================
+Id=8
+ExeStack:
+(Print(VariableExpression{id='v'});Print(rH(VariableExpression{id='a'})))
+fork((wH(a, ValueExpression{val=30});(v=ValueExpression{val=32};(Print(VariableExpression{id='v'});Print(rH(VariableExpression{id='a'}))))))
+
+SymTable:
+a -> (1, int)
+v -> 10
+
+Out:
+
+Heap:
+{1=22}
+FileTable:
+
+================================================
+
+
+================================================
+Id=8
+ExeStack:
+(Print(VariableExpression{id='v'});Print(rH(VariableExpression{id='a'})))
+fork((wH(a, ValueExpression{val=30});(v=ValueExpression{val=32};(Print(VariableExpression{id='v'});Print(rH(VariableExpression{id='a'}))))))
+
+SymTable:
+a -> (1, int)
+v -> 10
+
+Out:
+
+Heap:
+{1=22}
+FileTable:
+
+================================================
+
+
+================================================
+Id=8
+ExeStack:
+(Print(VariableExpression{id='v'});Print(rH(VariableExpression{id='a'})))
+
+SymTable:
+a -> (1, int)
+v -> 10
+
+Out:
+
+Heap:
+{1=22}
+FileTable:
+
+================================================
+
+
+================================================
+Id=9
+ExeStack:
+(wH(a, ValueExpression{val=30});(v=ValueExpression{val=32};(Print(VariableExpression{id='v'});Print(rH(VariableExpression{id='a'})))))
+
+SymTable:
+a -> (1, int)
+v -> 10
+
+Out:
+
+Heap:
+{1=22}
+FileTable:
+
+================================================
+
+
+================================================
+Id=8
+ExeStack:
+(Print(VariableExpression{id='v'});Print(rH(VariableExpression{id='a'})))
+
+SymTable:
+a -> (1, int)
+v -> 10
+
+Out:
+
+Heap:
+{1=22}
+FileTable:
+
+================================================
+
+
+================================================
+Id=9
+ExeStack:
+(wH(a, ValueExpression{val=30});(v=ValueExpression{val=32};(Print(VariableExpression{id='v'});Print(rH(VariableExpression{id='a'})))))
+
+SymTable:
+a -> (1, int)
+v -> 10
+
+Out:
+
+Heap:
+{1=22}
+FileTable:
+
+================================================
+
+
+================================================
+Id=8
+ExeStack:
+Print(rH(VariableExpression{id='a'}))
+Print(VariableExpression{id='v'})
+
+SymTable:
+a -> (1, int)
+v -> 10
+
+Out:
+
+Heap:
+{1=22}
+FileTable:
+
+================================================
+
+
+================================================
+Id=9
+ExeStack:
+(v=ValueExpression{val=32};(Print(VariableExpression{id='v'});Print(rH(VariableExpression{id='a'}))))
+wH(a, ValueExpression{val=30})
+
+SymTable:
+a -> (1, int)
+v -> 10
+
+Out:
+
+Heap:
+{1=22}
+FileTable:
+
+================================================
+
+
+================================================
+Id=8
+ExeStack:
+Print(rH(VariableExpression{id='a'}))
+Print(VariableExpression{id='v'})
+
+SymTable:
+a -> (1, int)
+v -> 10
+
+Out:
+
+Heap:
+{1=22}
+FileTable:
+
+================================================
+
+
+================================================
+Id=9
+ExeStack:
+(v=ValueExpression{val=32};(Print(VariableExpression{id='v'});Print(rH(VariableExpression{id='a'}))))
+wH(a, ValueExpression{val=30})
+
+SymTable:
+a -> (1, int)
+v -> 10
+
+Out:
+
+Heap:
+{1=22}
+FileTable:
+
+================================================
+
+
+================================================
+Id=8
+ExeStack:
+Print(rH(VariableExpression{id='a'}))
+
+SymTable:
+a -> (1, int)
+v -> 10
+
+Out:
+10
+
+Heap:
+{1=30}
+FileTable:
+
+================================================
+
+
+================================================
+Id=9
+ExeStack:
+(v=ValueExpression{val=32};(Print(VariableExpression{id='v'});Print(rH(VariableExpression{id='a'}))))
+
+SymTable:
+a -> (1, int)
+v -> 10
+
+Out:
+10
+
+Heap:
+{1=30}
+FileTable:
+
+================================================
+
+
+================================================
+Id=8
+ExeStack:
+Print(rH(VariableExpression{id='a'}))
+
+SymTable:
+a -> (1, int)
+v -> 10
+
+Out:
+10
+
+Heap:
+{1=30}
+FileTable:
+
+================================================
+
+
+================================================
+Id=9
+ExeStack:
+(v=ValueExpression{val=32};(Print(VariableExpression{id='v'});Print(rH(VariableExpression{id='a'}))))
+
+SymTable:
+a -> (1, int)
+v -> 10
+
+Out:
+10
+
+Heap:
+{1=30}
+FileTable:
+
+================================================
+
+
+================================================
+Id=8
+ExeStack:
+
+SymTable:
+a -> (1, int)
+v -> 10
+
+Out:
+10
+30
+
+Heap:
+{1=30}
+FileTable:
+
+================================================
+
+
+================================================
+Id=9
+ExeStack:
+(Print(VariableExpression{id='v'});Print(rH(VariableExpression{id='a'})))
+v=ValueExpression{val=32}
+
+SymTable:
+a -> (1, int)
+v -> 10
+
+Out:
+10
+30
+
+Heap:
+{1=30}
+FileTable:
+
+================================================
+
+
+================================================
+Id=9
+ExeStack:
+(Print(VariableExpression{id='v'});Print(rH(VariableExpression{id='a'})))
+v=ValueExpression{val=32}
+
+SymTable:
+a -> (1, int)
+v -> 10
+
+Out:
+10
+30
+
+Heap:
+{1=30}
+FileTable:
+
+================================================
+
+
+================================================
+Id=9
+ExeStack:
+(Print(VariableExpression{id='v'});Print(rH(VariableExpression{id='a'})))
+
+SymTable:
+a -> (1, int)
+v -> 32
+
+Out:
+10
+30
+
+Heap:
+{1=30}
+FileTable:
+
+================================================
+
+
+================================================
+Id=9
+ExeStack:
+(Print(VariableExpression{id='v'});Print(rH(VariableExpression{id='a'})))
+
+SymTable:
+a -> (1, int)
+v -> 32
+
+Out:
+10
+30
+
+Heap:
+{1=30}
+FileTable:
+
+================================================
+
+
+================================================
+Id=9
+ExeStack:
+Print(rH(VariableExpression{id='a'}))
+Print(VariableExpression{id='v'})
+
+SymTable:
+a -> (1, int)
+v -> 32
+
+Out:
+10
+30
+
+Heap:
+{1=30}
+FileTable:
+
+================================================
+
+
+================================================
+Id=9
+ExeStack:
+Print(rH(VariableExpression{id='a'}))
+Print(VariableExpression{id='v'})
+
+SymTable:
+a -> (1, int)
+v -> 32
+
+Out:
+10
+30
+
+Heap:
+{1=30}
+FileTable:
+
+================================================
+
+
+================================================
+Id=9
+ExeStack:
+Print(rH(VariableExpression{id='a'}))
+
+SymTable:
+a -> (1, int)
+v -> 32
+
+Out:
+10
+30
+32
+
+Heap:
+{1=30}
+FileTable:
+
+================================================
+
+
+================================================
+Id=9
+ExeStack:
+Print(rH(VariableExpression{id='a'}))
+
+SymTable:
+a -> (1, int)
+v -> 32
+
+Out:
+10
+30
+32
+
+Heap:
+{1=30}
+FileTable:
+
+================================================
+
+
+================================================
+Id=9
+ExeStack:
+
+SymTable:
+a -> (1, int)
+v -> 32
+
+Out:
+10
+30
+32
+30
+
+Heap:
+{1=30}
+FileTable:
+
+================================================
+
+
+================================================
+Id=7
+ExeStack:
+(int v;(v=ValueExpression{val=4};(while((VariableExpression{id='v'}>ValueExpression{val=0})) (Print(VariableExpression{id='v'});v=VariableExpression{id='v'} - ValueExpression{val=1});Print(VariableExpression{id='v'}))))
+
+SymTable:
+
+Out:
+
+Heap:
+{}
+FileTable:
+
+================================================
+
+
+================================================
+Id=7
+ExeStack:
+(v=ValueExpression{val=4};(while((VariableExpression{id='v'}>ValueExpression{val=0})) (Print(VariableExpression{id='v'});v=VariableExpression{id='v'} - ValueExpression{val=1});Print(VariableExpression{id='v'})))
+int v
+
+SymTable:
+
+Out:
+
+Heap:
+{}
+FileTable:
+
+================================================
+
+
+================================================
+Id=7
+ExeStack:
+(v=ValueExpression{val=4};(while((VariableExpression{id='v'}>ValueExpression{val=0})) (Print(VariableExpression{id='v'});v=VariableExpression{id='v'} - ValueExpression{val=1});Print(VariableExpression{id='v'})))
+int v
+
+SymTable:
+
+Out:
+
+Heap:
+{}
+FileTable:
+
+================================================
+
+
+================================================
+Id=7
+ExeStack:
+(v=ValueExpression{val=4};(while((VariableExpression{id='v'}>ValueExpression{val=0})) (Print(VariableExpression{id='v'});v=VariableExpression{id='v'} - ValueExpression{val=1});Print(VariableExpression{id='v'})))
+
+SymTable:
+v -> 0
+
+Out:
+
+Heap:
+{}
+FileTable:
+
+================================================
+
+
+================================================
+Id=7
+ExeStack:
+(v=ValueExpression{val=4};(while((VariableExpression{id='v'}>ValueExpression{val=0})) (Print(VariableExpression{id='v'});v=VariableExpression{id='v'} - ValueExpression{val=1});Print(VariableExpression{id='v'})))
+
+SymTable:
+v -> 0
+
+Out:
+
+Heap:
+{}
+FileTable:
+
+================================================
+
+
+================================================
+Id=7
+ExeStack:
+(while((VariableExpression{id='v'}>ValueExpression{val=0})) (Print(VariableExpression{id='v'});v=VariableExpression{id='v'} - ValueExpression{val=1});Print(VariableExpression{id='v'}))
+v=ValueExpression{val=4}
+
+SymTable:
+v -> 0
+
+Out:
+
+Heap:
+{}
+FileTable:
+
+================================================
+
+
+================================================
+Id=7
+ExeStack:
+(while((VariableExpression{id='v'}>ValueExpression{val=0})) (Print(VariableExpression{id='v'});v=VariableExpression{id='v'} - ValueExpression{val=1});Print(VariableExpression{id='v'}))
+v=ValueExpression{val=4}
+
+SymTable:
+v -> 0
+
+Out:
+
+Heap:
+{}
+FileTable:
+
+================================================
+
+
+================================================
+Id=7
+ExeStack:
+(while((VariableExpression{id='v'}>ValueExpression{val=0})) (Print(VariableExpression{id='v'});v=VariableExpression{id='v'} - ValueExpression{val=1});Print(VariableExpression{id='v'}))
+
+SymTable:
+v -> 4
+
+Out:
+
+Heap:
+{}
+FileTable:
+
+================================================
+
+
+================================================
+Id=7
+ExeStack:
+(while((VariableExpression{id='v'}>ValueExpression{val=0})) (Print(VariableExpression{id='v'});v=VariableExpression{id='v'} - ValueExpression{val=1});Print(VariableExpression{id='v'}))
+
+SymTable:
+v -> 4
+
+Out:
+
+Heap:
+{}
+FileTable:
+
+================================================
+
+
+================================================
+Id=7
+ExeStack:
+Print(VariableExpression{id='v'})
+while((VariableExpression{id='v'}>ValueExpression{val=0})) (Print(VariableExpression{id='v'});v=VariableExpression{id='v'} - ValueExpression{val=1})
+
+SymTable:
+v -> 4
+
+Out:
+
+Heap:
+{}
+FileTable:
+
+================================================
+
+
+================================================
+Id=7
+ExeStack:
+Print(VariableExpression{id='v'})
+while((VariableExpression{id='v'}>ValueExpression{val=0})) (Print(VariableExpression{id='v'});v=VariableExpression{id='v'} - ValueExpression{val=1})
+
+SymTable:
+v -> 4
+
+Out:
+
+Heap:
+{}
+FileTable:
+
+================================================
+
+
+================================================
+Id=7
+ExeStack:
+Print(VariableExpression{id='v'})
+while((VariableExpression{id='v'}>ValueExpression{val=0})) (Print(VariableExpression{id='v'});v=VariableExpression{id='v'} - ValueExpression{val=1})
+(Print(VariableExpression{id='v'});v=VariableExpression{id='v'} - ValueExpression{val=1})
+
+SymTable:
+v -> 4
+
+Out:
+
+Heap:
+{}
+FileTable:
+
+================================================
+
+
+================================================
+Id=7
+ExeStack:
+Print(VariableExpression{id='v'})
+while((VariableExpression{id='v'}>ValueExpression{val=0})) (Print(VariableExpression{id='v'});v=VariableExpression{id='v'} - ValueExpression{val=1})
+(Print(VariableExpression{id='v'});v=VariableExpression{id='v'} - ValueExpression{val=1})
+
+SymTable:
+v -> 4
+
+Out:
+
+Heap:
+{}
+FileTable:
+
+================================================
+
+
+================================================
+Id=7
+ExeStack:
+Print(VariableExpression{id='v'})
+while((VariableExpression{id='v'}>ValueExpression{val=0})) (Print(VariableExpression{id='v'});v=VariableExpression{id='v'} - ValueExpression{val=1})
+v=VariableExpression{id='v'} - ValueExpression{val=1}
+Print(VariableExpression{id='v'})
+
+SymTable:
+v -> 4
+
+Out:
+
+Heap:
+{}
+FileTable:
+
+================================================
+
+
+================================================
+Id=7
+ExeStack:
+Print(VariableExpression{id='v'})
+while((VariableExpression{id='v'}>ValueExpression{val=0})) (Print(VariableExpression{id='v'});v=VariableExpression{id='v'} - ValueExpression{val=1})
+v=VariableExpression{id='v'} - ValueExpression{val=1}
+Print(VariableExpression{id='v'})
+
+SymTable:
+v -> 4
+
+Out:
+
+Heap:
+{}
+FileTable:
+
+================================================
+
+
+================================================
+Id=7
+ExeStack:
+Print(VariableExpression{id='v'})
+while((VariableExpression{id='v'}>ValueExpression{val=0})) (Print(VariableExpression{id='v'});v=VariableExpression{id='v'} - ValueExpression{val=1})
+v=VariableExpression{id='v'} - ValueExpression{val=1}
+
+SymTable:
+v -> 4
+
+Out:
+4
+
+Heap:
+{}
+FileTable:
+
+================================================
+
+
+================================================
+Id=7
+ExeStack:
+Print(VariableExpression{id='v'})
+while((VariableExpression{id='v'}>ValueExpression{val=0})) (Print(VariableExpression{id='v'});v=VariableExpression{id='v'} - ValueExpression{val=1})
+v=VariableExpression{id='v'} - ValueExpression{val=1}
+
+SymTable:
+v -> 4
+
+Out:
+4
+
+Heap:
+{}
+FileTable:
+
+================================================
+
+
+================================================
+Id=7
+ExeStack:
+Print(VariableExpression{id='v'})
+while((VariableExpression{id='v'}>ValueExpression{val=0})) (Print(VariableExpression{id='v'});v=VariableExpression{id='v'} - ValueExpression{val=1})
+
+SymTable:
+v -> 3
+
+Out:
+4
+
+Heap:
+{}
+FileTable:
+
+================================================
+
+
+================================================
+Id=7
+ExeStack:
+Print(VariableExpression{id='v'})
+while((VariableExpression{id='v'}>ValueExpression{val=0})) (Print(VariableExpression{id='v'});v=VariableExpression{id='v'} - ValueExpression{val=1})
+
+SymTable:
+v -> 3
+
+Out:
+4
+
+Heap:
+{}
+FileTable:
+
+================================================
+
+
+================================================
+Id=7
+ExeStack:
+Print(VariableExpression{id='v'})
+while((VariableExpression{id='v'}>ValueExpression{val=0})) (Print(VariableExpression{id='v'});v=VariableExpression{id='v'} - ValueExpression{val=1})
+(Print(VariableExpression{id='v'});v=VariableExpression{id='v'} - ValueExpression{val=1})
+
+SymTable:
+v -> 3
+
+Out:
+4
+
+Heap:
+{}
+FileTable:
+
+================================================
+
+
+================================================
+Id=7
+ExeStack:
+Print(VariableExpression{id='v'})
+while((VariableExpression{id='v'}>ValueExpression{val=0})) (Print(VariableExpression{id='v'});v=VariableExpression{id='v'} - ValueExpression{val=1})
+(Print(VariableExpression{id='v'});v=VariableExpression{id='v'} - ValueExpression{val=1})
+
+SymTable:
+v -> 3
+
+Out:
+4
+
+Heap:
+{}
+FileTable:
+
+================================================
+
+
+================================================
+Id=7
+ExeStack:
+Print(VariableExpression{id='v'})
+while((VariableExpression{id='v'}>ValueExpression{val=0})) (Print(VariableExpression{id='v'});v=VariableExpression{id='v'} - ValueExpression{val=1})
+v=VariableExpression{id='v'} - ValueExpression{val=1}
+Print(VariableExpression{id='v'})
+
+SymTable:
+v -> 3
+
+Out:
+4
+
+Heap:
+{}
+FileTable:
+
+================================================
+
+
+================================================
+Id=7
+ExeStack:
+Print(VariableExpression{id='v'})
+while((VariableExpression{id='v'}>ValueExpression{val=0})) (Print(VariableExpression{id='v'});v=VariableExpression{id='v'} - ValueExpression{val=1})
+v=VariableExpression{id='v'} - ValueExpression{val=1}
+Print(VariableExpression{id='v'})
+
+SymTable:
+v -> 3
+
+Out:
+4
+
+Heap:
+{}
+FileTable:
+
+================================================
+
+
+================================================
+Id=7
+ExeStack:
+Print(VariableExpression{id='v'})
+while((VariableExpression{id='v'}>ValueExpression{val=0})) (Print(VariableExpression{id='v'});v=VariableExpression{id='v'} - ValueExpression{val=1})
+v=VariableExpression{id='v'} - ValueExpression{val=1}
+
+SymTable:
+v -> 3
+
+Out:
+4
+3
+
+Heap:
+{}
+FileTable:
+
+================================================
+
+
+================================================
+Id=7
+ExeStack:
+Print(VariableExpression{id='v'})
+while((VariableExpression{id='v'}>ValueExpression{val=0})) (Print(VariableExpression{id='v'});v=VariableExpression{id='v'} - ValueExpression{val=1})
+v=VariableExpression{id='v'} - ValueExpression{val=1}
+
+SymTable:
+v -> 3
+
+Out:
+4
+3
+
+Heap:
+{}
+FileTable:
+
+================================================
+
+
+================================================
+Id=7
+ExeStack:
+Print(VariableExpression{id='v'})
+while((VariableExpression{id='v'}>ValueExpression{val=0})) (Print(VariableExpression{id='v'});v=VariableExpression{id='v'} - ValueExpression{val=1})
+
+SymTable:
+v -> 2
+
+Out:
+4
+3
+
+Heap:
+{}
+FileTable:
+
+================================================
+
+
+================================================
+Id=7
+ExeStack:
+Print(VariableExpression{id='v'})
+while((VariableExpression{id='v'}>ValueExpression{val=0})) (Print(VariableExpression{id='v'});v=VariableExpression{id='v'} - ValueExpression{val=1})
+
+SymTable:
+v -> 2
+
+Out:
+4
+3
+
+Heap:
+{}
+FileTable:
+
+================================================
+
+
+================================================
+Id=7
+ExeStack:
+Print(VariableExpression{id='v'})
+while((VariableExpression{id='v'}>ValueExpression{val=0})) (Print(VariableExpression{id='v'});v=VariableExpression{id='v'} - ValueExpression{val=1})
+(Print(VariableExpression{id='v'});v=VariableExpression{id='v'} - ValueExpression{val=1})
+
+SymTable:
+v -> 2
+
+Out:
+4
+3
+
+Heap:
+{}
+FileTable:
+
+================================================
+
+
+================================================
+Id=7
+ExeStack:
+Print(VariableExpression{id='v'})
+while((VariableExpression{id='v'}>ValueExpression{val=0})) (Print(VariableExpression{id='v'});v=VariableExpression{id='v'} - ValueExpression{val=1})
+(Print(VariableExpression{id='v'});v=VariableExpression{id='v'} - ValueExpression{val=1})
+
+SymTable:
+v -> 2
+
+Out:
+4
+3
+
+Heap:
+{}
+FileTable:
+
+================================================
+
+
+================================================
+Id=7
+ExeStack:
+Print(VariableExpression{id='v'})
+while((VariableExpression{id='v'}>ValueExpression{val=0})) (Print(VariableExpression{id='v'});v=VariableExpression{id='v'} - ValueExpression{val=1})
+v=VariableExpression{id='v'} - ValueExpression{val=1}
+Print(VariableExpression{id='v'})
+
+SymTable:
+v -> 2
+
+Out:
+4
+3
+
+Heap:
+{}
+FileTable:
+
+================================================
+
+
+================================================
+Id=7
+ExeStack:
+Print(VariableExpression{id='v'})
+while((VariableExpression{id='v'}>ValueExpression{val=0})) (Print(VariableExpression{id='v'});v=VariableExpression{id='v'} - ValueExpression{val=1})
+v=VariableExpression{id='v'} - ValueExpression{val=1}
+Print(VariableExpression{id='v'})
+
+SymTable:
+v -> 2
+
+Out:
+4
+3
+
+Heap:
+{}
+FileTable:
+
+================================================
+
+
+================================================
+Id=7
+ExeStack:
+Print(VariableExpression{id='v'})
+while((VariableExpression{id='v'}>ValueExpression{val=0})) (Print(VariableExpression{id='v'});v=VariableExpression{id='v'} - ValueExpression{val=1})
+v=VariableExpression{id='v'} - ValueExpression{val=1}
+
+SymTable:
+v -> 2
+
+Out:
+4
+3
+2
+
+Heap:
+{}
+FileTable:
+
+================================================
+
+
+================================================
+Id=7
+ExeStack:
+Print(VariableExpression{id='v'})
+while((VariableExpression{id='v'}>ValueExpression{val=0})) (Print(VariableExpression{id='v'});v=VariableExpression{id='v'} - ValueExpression{val=1})
+v=VariableExpression{id='v'} - ValueExpression{val=1}
+
+SymTable:
+v -> 2
+
+Out:
+4
+3
+2
+
+Heap:
+{}
+FileTable:
+
+================================================
+
+
+================================================
+Id=7
+ExeStack:
+Print(VariableExpression{id='v'})
+while((VariableExpression{id='v'}>ValueExpression{val=0})) (Print(VariableExpression{id='v'});v=VariableExpression{id='v'} - ValueExpression{val=1})
+
+SymTable:
+v -> 1
+
+Out:
+4
+3
+2
+
+Heap:
+{}
+FileTable:
+
+================================================
+
+
+================================================
+Id=7
+ExeStack:
+Print(VariableExpression{id='v'})
+while((VariableExpression{id='v'}>ValueExpression{val=0})) (Print(VariableExpression{id='v'});v=VariableExpression{id='v'} - ValueExpression{val=1})
+
+SymTable:
+v -> 1
+
+Out:
+4
+3
+2
+
+Heap:
+{}
+FileTable:
+
+================================================
+
+
+================================================
+Id=7
+ExeStack:
+Print(VariableExpression{id='v'})
+while((VariableExpression{id='v'}>ValueExpression{val=0})) (Print(VariableExpression{id='v'});v=VariableExpression{id='v'} - ValueExpression{val=1})
+(Print(VariableExpression{id='v'});v=VariableExpression{id='v'} - ValueExpression{val=1})
+
+SymTable:
+v -> 1
+
+Out:
+4
+3
+2
+
+Heap:
+{}
+FileTable:
+
+================================================
+
+
+================================================
+Id=7
+ExeStack:
+Print(VariableExpression{id='v'})
+while((VariableExpression{id='v'}>ValueExpression{val=0})) (Print(VariableExpression{id='v'});v=VariableExpression{id='v'} - ValueExpression{val=1})
+(Print(VariableExpression{id='v'});v=VariableExpression{id='v'} - ValueExpression{val=1})
+
+SymTable:
+v -> 1
+
+Out:
+4
+3
+2
+
+Heap:
+{}
+FileTable:
+
+================================================
+
+
+================================================
+Id=7
+ExeStack:
+Print(VariableExpression{id='v'})
+while((VariableExpression{id='v'}>ValueExpression{val=0})) (Print(VariableExpression{id='v'});v=VariableExpression{id='v'} - ValueExpression{val=1})
+v=VariableExpression{id='v'} - ValueExpression{val=1}
+Print(VariableExpression{id='v'})
+
+SymTable:
+v -> 1
+
+Out:
+4
+3
+2
+
+Heap:
+{}
+FileTable:
+
+================================================
+
+
+================================================
+Id=7
+ExeStack:
+Print(VariableExpression{id='v'})
+while((VariableExpression{id='v'}>ValueExpression{val=0})) (Print(VariableExpression{id='v'});v=VariableExpression{id='v'} - ValueExpression{val=1})
+v=VariableExpression{id='v'} - ValueExpression{val=1}
+Print(VariableExpression{id='v'})
+
+SymTable:
+v -> 1
+
+Out:
+4
+3
+2
+
+Heap:
+{}
+FileTable:
+
+================================================
+
+
+================================================
+Id=7
+ExeStack:
+Print(VariableExpression{id='v'})
+while((VariableExpression{id='v'}>ValueExpression{val=0})) (Print(VariableExpression{id='v'});v=VariableExpression{id='v'} - ValueExpression{val=1})
+v=VariableExpression{id='v'} - ValueExpression{val=1}
+
+SymTable:
+v -> 1
+
+Out:
+4
+3
+2
+1
+
+Heap:
+{}
+FileTable:
+
+================================================
+
+
+================================================
+Id=7
+ExeStack:
+Print(VariableExpression{id='v'})
+while((VariableExpression{id='v'}>ValueExpression{val=0})) (Print(VariableExpression{id='v'});v=VariableExpression{id='v'} - ValueExpression{val=1})
+v=VariableExpression{id='v'} - ValueExpression{val=1}
+
+SymTable:
+v -> 1
+
+Out:
+4
+3
+2
+1
+
+Heap:
+{}
+FileTable:
+
+================================================
+
+
+================================================
+Id=7
+ExeStack:
+Print(VariableExpression{id='v'})
+while((VariableExpression{id='v'}>ValueExpression{val=0})) (Print(VariableExpression{id='v'});v=VariableExpression{id='v'} - ValueExpression{val=1})
+
+SymTable:
+v -> 0
+
+Out:
+4
+3
+2
+1
+
+Heap:
+{}
+FileTable:
+
+================================================
+
+
+================================================
+Id=7
+ExeStack:
+Print(VariableExpression{id='v'})
+while((VariableExpression{id='v'}>ValueExpression{val=0})) (Print(VariableExpression{id='v'});v=VariableExpression{id='v'} - ValueExpression{val=1})
+
+SymTable:
+v -> 0
+
+Out:
+4
+3
+2
+1
+
+Heap:
+{}
+FileTable:
+
+================================================
+
+
+================================================
+Id=7
+ExeStack:
+Print(VariableExpression{id='v'})
+
+SymTable:
+v -> 0
+
+Out:
+4
+3
+2
+1
+
+Heap:
+{}
+FileTable:
+
+================================================
+
+
+================================================
+Id=7
+ExeStack:
+Print(VariableExpression{id='v'})
+
+SymTable:
+v -> 0
+
+Out:
+4
+3
+2
+1
+
+Heap:
+{}
+FileTable:
+
+================================================
+
+
+================================================
+Id=7
+ExeStack:
+
+SymTable:
+v -> 0
+
+Out:
+4
+3
+2
+1
+0
+
+Heap:
+{}
+FileTable:
+
+================================================
+
+
+================================================
+Id=1
+ExeStack:
+(int v;(v=ValueExpression{val=2};Print(VariableExpression{id='v'})))
+
+SymTable:
+
+Out:
+
+Heap:
+{}
+FileTable:
+
+================================================
+
+
+================================================
+Id=1
+ExeStack:
+(v=ValueExpression{val=2};Print(VariableExpression{id='v'}))
+int v
+
+SymTable:
+
+Out:
+
+Heap:
+{}
+FileTable:
+
+================================================
+
+
+================================================
+Id=1
+ExeStack:
+(v=ValueExpression{val=2};Print(VariableExpression{id='v'}))
+int v
+
+SymTable:
+
+Out:
+
+Heap:
+{}
+FileTable:
+
+================================================
+
+
+================================================
+Id=1
+ExeStack:
+(v=ValueExpression{val=2};Print(VariableExpression{id='v'}))
+
+SymTable:
+v -> 0
+
+Out:
+
+Heap:
+{}
+FileTable:
+
+================================================
+
+
+================================================
+Id=1
+ExeStack:
+(v=ValueExpression{val=2};Print(VariableExpression{id='v'}))
+
+SymTable:
+v -> 0
+
+Out:
+
+Heap:
+{}
+FileTable:
+
+================================================
+
+
+================================================
+Id=1
+ExeStack:
+Print(VariableExpression{id='v'})
+v=ValueExpression{val=2}
+
+SymTable:
+v -> 0
+
+Out:
+
+Heap:
+{}
+FileTable:
+
+================================================
+
+
+================================================
+Id=1
+ExeStack:
+Print(VariableExpression{id='v'})
+v=ValueExpression{val=2}
+
+SymTable:
+v -> 0
+
+Out:
+
+Heap:
+{}
+FileTable:
+
+================================================
+
+
+================================================
+Id=1
+ExeStack:
+Print(VariableExpression{id='v'})
+
+SymTable:
+v -> 2
+
+Out:
+
+Heap:
+{}
+FileTable:
+
+================================================
+
+
+================================================
+Id=1
+ExeStack:
+Print(VariableExpression{id='v'})
+
+SymTable:
+v -> 2
+
+Out:
+
+Heap:
+{}
+FileTable:
+
+================================================
+
+
+================================================
+Id=1
+ExeStack:
+
+SymTable:
+v -> 2
+
+Out:
+2
+
+Heap:
+{}
+FileTable:
+
+================================================
+
+
+================================================
+Id=6
+ExeStack:
+(Ref(int) v;(new(v, ValueExpression{val=20});(Ref(Ref(int)) a;(new(a, VariableExpression{id='v'});(new(v, ValueExpression{val=30});Print(rH(rH(VariableExpression{id='a'}))))))))
+
+SymTable:
+
+Out:
+
+Heap:
+{}
+FileTable:
+
+================================================
+
+
+================================================
+Id=6
+ExeStack:
+(new(v, ValueExpression{val=20});(Ref(Ref(int)) a;(new(a, VariableExpression{id='v'});(new(v, ValueExpression{val=30});Print(rH(rH(VariableExpression{id='a'})))))))
+Ref(int) v
+
+SymTable:
+
+Out:
+
+Heap:
+{}
+FileTable:
+
+================================================
+
+
+================================================
+Id=6
+ExeStack:
+(new(v, ValueExpression{val=20});(Ref(Ref(int)) a;(new(a, VariableExpression{id='v'});(new(v, ValueExpression{val=30});Print(rH(rH(VariableExpression{id='a'})))))))
+Ref(int) v
+
+SymTable:
+
+Out:
+
+Heap:
+{}
+FileTable:
+
+================================================
+
+
+================================================
+Id=6
+ExeStack:
+(new(v, ValueExpression{val=20});(Ref(Ref(int)) a;(new(a, VariableExpression{id='v'});(new(v, ValueExpression{val=30});Print(rH(rH(VariableExpression{id='a'})))))))
+
+SymTable:
+v -> (0, int)
+
+Out:
+
+Heap:
+{}
+FileTable:
+
+================================================
+
+
+================================================
+Id=6
+ExeStack:
+(new(v, ValueExpression{val=20});(Ref(Ref(int)) a;(new(a, VariableExpression{id='v'});(new(v, ValueExpression{val=30});Print(rH(rH(VariableExpression{id='a'})))))))
+
+SymTable:
+v -> (0, int)
+
+Out:
+
+Heap:
+{}
+FileTable:
+
+================================================
+
+
+================================================
+Id=6
+ExeStack:
+(Ref(Ref(int)) a;(new(a, VariableExpression{id='v'});(new(v, ValueExpression{val=30});Print(rH(rH(VariableExpression{id='a'}))))))
+new(v, ValueExpression{val=20})
+
+SymTable:
+v -> (0, int)
+
+Out:
+
+Heap:
+{}
+FileTable:
+
+================================================
+
+
+================================================
+Id=6
+ExeStack:
+(Ref(Ref(int)) a;(new(a, VariableExpression{id='v'});(new(v, ValueExpression{val=30});Print(rH(rH(VariableExpression{id='a'}))))))
+new(v, ValueExpression{val=20})
+
+SymTable:
+v -> (0, int)
+
+Out:
+
+Heap:
+{}
+FileTable:
+
+================================================
+
+
+================================================
+Id=6
+ExeStack:
+(Ref(Ref(int)) a;(new(a, VariableExpression{id='v'});(new(v, ValueExpression{val=30});Print(rH(rH(VariableExpression{id='a'}))))))
+
+SymTable:
+v -> (1, int)
+
+Out:
+
+Heap:
+{1=20}
+FileTable:
+
+================================================
+
+
+================================================
+Id=6
+ExeStack:
+(Ref(Ref(int)) a;(new(a, VariableExpression{id='v'});(new(v, ValueExpression{val=30});Print(rH(rH(VariableExpression{id='a'}))))))
+
+SymTable:
+v -> (1, int)
+
+Out:
+
+Heap:
+{1=20}
+FileTable:
+
+================================================
+
+
+================================================
+Id=6
+ExeStack:
+(new(a, VariableExpression{id='v'});(new(v, ValueExpression{val=30});Print(rH(rH(VariableExpression{id='a'})))))
+Ref(Ref(int)) a
+
+SymTable:
+v -> (1, int)
+
+Out:
+
+Heap:
+{1=20}
+FileTable:
+
+================================================
+
+
+================================================
+Id=6
+ExeStack:
+(new(a, VariableExpression{id='v'});(new(v, ValueExpression{val=30});Print(rH(rH(VariableExpression{id='a'})))))
+Ref(Ref(int)) a
+
+SymTable:
+v -> (1, int)
+
+Out:
+
+Heap:
+{1=20}
+FileTable:
+
+================================================
+
+
+================================================
+Id=6
+ExeStack:
+(new(a, VariableExpression{id='v'});(new(v, ValueExpression{val=30});Print(rH(rH(VariableExpression{id='a'})))))
+
+SymTable:
+a -> (0, Ref(int))
+v -> (1, int)
+
+Out:
+
+Heap:
+{1=20}
+FileTable:
+
+================================================
+
+
+================================================
+Id=6
+ExeStack:
+(new(a, VariableExpression{id='v'});(new(v, ValueExpression{val=30});Print(rH(rH(VariableExpression{id='a'})))))
+
+SymTable:
+a -> (0, Ref(int))
+v -> (1, int)
+
+Out:
+
+Heap:
+{1=20}
+FileTable:
+
+================================================
+
+
+================================================
+Id=6
+ExeStack:
+(new(v, ValueExpression{val=30});Print(rH(rH(VariableExpression{id='a'}))))
+new(a, VariableExpression{id='v'})
+
+SymTable:
+a -> (0, Ref(int))
+v -> (1, int)
+
+Out:
+
+Heap:
+{1=20}
+FileTable:
+
+================================================
+
+
+================================================
+Id=6
+ExeStack:
+(new(v, ValueExpression{val=30});Print(rH(rH(VariableExpression{id='a'}))))
+new(a, VariableExpression{id='v'})
+
+SymTable:
+a -> (0, Ref(int))
+v -> (1, int)
+
+Out:
+
+Heap:
+{1=20}
+FileTable:
+
+================================================
+
+
+================================================
+Id=6
+ExeStack:
+(new(v, ValueExpression{val=30});Print(rH(rH(VariableExpression{id='a'}))))
+
+SymTable:
+a -> (2, Ref(int))
+v -> (1, int)
+
+Out:
+
+Heap:
+{1=20, 2=(1, int)}
+FileTable:
+
+================================================
+
+
+================================================
+Id=6
+ExeStack:
+(new(v, ValueExpression{val=30});Print(rH(rH(VariableExpression{id='a'}))))
+
+SymTable:
+a -> (2, Ref(int))
+v -> (1, int)
+
+Out:
+
+Heap:
+{1=20, 2=(1, int)}
+FileTable:
+
+================================================
+
+
+================================================
+Id=6
+ExeStack:
+Print(rH(rH(VariableExpression{id='a'})))
+new(v, ValueExpression{val=30})
+
+SymTable:
+a -> (2, Ref(int))
+v -> (1, int)
+
+Out:
+
+Heap:
+{1=20, 2=(1, int)}
+FileTable:
+
+================================================
+
+
+================================================
+Id=6
+ExeStack:
+Print(rH(rH(VariableExpression{id='a'})))
+new(v, ValueExpression{val=30})
+
+SymTable:
+a -> (2, Ref(int))
+v -> (1, int)
+
+Out:
+
+Heap:
+{1=20, 2=(1, int)}
+FileTable:
+
+================================================
+
+
+================================================
+Id=6
+ExeStack:
+Print(rH(rH(VariableExpression{id='a'})))
+
+SymTable:
+a -> (2, Ref(int))
+v -> (3, int)
+
+Out:
+
+Heap:
+{1=20, 2=(1, int), 3=30}
+FileTable:
+
+================================================
+
+
+================================================
+Id=6
+ExeStack:
+Print(rH(rH(VariableExpression{id='a'})))
+
+SymTable:
+a -> (2, Ref(int))
+v -> (3, int)
+
+Out:
+
+Heap:
+{1=20, 2=(1, int), 3=30}
+FileTable:
+
+================================================
+
+
+================================================
+Id=6
+ExeStack:
+
+SymTable:
+a -> (2, Ref(int))
+v -> (3, int)
+
+Out:
+20
+
+Heap:
+{1=20, 2=(1, int), 3=30}
+FileTable:
+
+================================================
+
+
+================================================
+Id=7
+ExeStack:
+(int v;(v=ValueExpression{val=4};(while((VariableExpression{id='v'}>ValueExpression{val=0})) (Print(VariableExpression{id='v'});v=VariableExpression{id='v'} - ValueExpression{val=1});Print(VariableExpression{id='v'}))))
+
+SymTable:
+
+Out:
+
+Heap:
+{}
+FileTable:
+
+================================================
+
+
+================================================
+Id=7
+ExeStack:
+(v=ValueExpression{val=4};(while((VariableExpression{id='v'}>ValueExpression{val=0})) (Print(VariableExpression{id='v'});v=VariableExpression{id='v'} - ValueExpression{val=1});Print(VariableExpression{id='v'})))
+int v
+
+SymTable:
+
+Out:
+
+Heap:
+{}
+FileTable:
+
+================================================
+
+
+================================================
+Id=7
+ExeStack:
+(v=ValueExpression{val=4};(while((VariableExpression{id='v'}>ValueExpression{val=0})) (Print(VariableExpression{id='v'});v=VariableExpression{id='v'} - ValueExpression{val=1});Print(VariableExpression{id='v'})))
+int v
+
+SymTable:
+
+Out:
+
+Heap:
+{}
+FileTable:
+
+================================================
+
+
+================================================
+Id=7
+ExeStack:
+(v=ValueExpression{val=4};(while((VariableExpression{id='v'}>ValueExpression{val=0})) (Print(VariableExpression{id='v'});v=VariableExpression{id='v'} - ValueExpression{val=1});Print(VariableExpression{id='v'})))
+
+SymTable:
+v -> 0
+
+Out:
+
+Heap:
+{}
+FileTable:
+
+================================================
+
+
+================================================
+Id=7
+ExeStack:
+(v=ValueExpression{val=4};(while((VariableExpression{id='v'}>ValueExpression{val=0})) (Print(VariableExpression{id='v'});v=VariableExpression{id='v'} - ValueExpression{val=1});Print(VariableExpression{id='v'})))
+
+SymTable:
+v -> 0
+
+Out:
+
+Heap:
+{}
+FileTable:
+
+================================================
+
+
+================================================
+Id=7
+ExeStack:
+(while((VariableExpression{id='v'}>ValueExpression{val=0})) (Print(VariableExpression{id='v'});v=VariableExpression{id='v'} - ValueExpression{val=1});Print(VariableExpression{id='v'}))
+v=ValueExpression{val=4}
+
+SymTable:
+v -> 0
+
+Out:
+
+Heap:
+{}
+FileTable:
+
+================================================
+
+
+================================================
+Id=7
+ExeStack:
+(while((VariableExpression{id='v'}>ValueExpression{val=0})) (Print(VariableExpression{id='v'});v=VariableExpression{id='v'} - ValueExpression{val=1});Print(VariableExpression{id='v'}))
+v=ValueExpression{val=4}
+
+SymTable:
+v -> 0
+
+Out:
+
+Heap:
+{}
+FileTable:
+
+================================================
+
+
+================================================
+Id=7
+ExeStack:
+(while((VariableExpression{id='v'}>ValueExpression{val=0})) (Print(VariableExpression{id='v'});v=VariableExpression{id='v'} - ValueExpression{val=1});Print(VariableExpression{id='v'}))
+
+SymTable:
+v -> 4
+
+Out:
+
+Heap:
+{}
+FileTable:
+
+================================================
+
+
+================================================
+Id=7
+ExeStack:
+(while((VariableExpression{id='v'}>ValueExpression{val=0})) (Print(VariableExpression{id='v'});v=VariableExpression{id='v'} - ValueExpression{val=1});Print(VariableExpression{id='v'}))
+
+SymTable:
+v -> 4
+
+Out:
+
+Heap:
+{}
+FileTable:
+
+================================================
+
+
+================================================
+Id=7
+ExeStack:
+Print(VariableExpression{id='v'})
+while((VariableExpression{id='v'}>ValueExpression{val=0})) (Print(VariableExpression{id='v'});v=VariableExpression{id='v'} - ValueExpression{val=1})
+
+SymTable:
+v -> 4
+
+Out:
+
+Heap:
+{}
+FileTable:
+
+================================================
+
+
+================================================
+Id=7
+ExeStack:
+Print(VariableExpression{id='v'})
+while((VariableExpression{id='v'}>ValueExpression{val=0})) (Print(VariableExpression{id='v'});v=VariableExpression{id='v'} - ValueExpression{val=1})
+
+SymTable:
+v -> 4
+
+Out:
+
+Heap:
+{}
+FileTable:
+
+================================================
+
+
+================================================
+Id=7
+ExeStack:
+Print(VariableExpression{id='v'})
+while((VariableExpression{id='v'}>ValueExpression{val=0})) (Print(VariableExpression{id='v'});v=VariableExpression{id='v'} - ValueExpression{val=1})
+(Print(VariableExpression{id='v'});v=VariableExpression{id='v'} - ValueExpression{val=1})
+
+SymTable:
+v -> 4
+
+Out:
+
+Heap:
+{}
+FileTable:
+
+================================================
+
+
+================================================
+Id=7
+ExeStack:
+Print(VariableExpression{id='v'})
+while((VariableExpression{id='v'}>ValueExpression{val=0})) (Print(VariableExpression{id='v'});v=VariableExpression{id='v'} - ValueExpression{val=1})
+(Print(VariableExpression{id='v'});v=VariableExpression{id='v'} - ValueExpression{val=1})
+
+SymTable:
+v -> 4
+
+Out:
+
+Heap:
+{}
+FileTable:
+
+================================================
+
+
+================================================
+Id=7
+ExeStack:
+Print(VariableExpression{id='v'})
+while((VariableExpression{id='v'}>ValueExpression{val=0})) (Print(VariableExpression{id='v'});v=VariableExpression{id='v'} - ValueExpression{val=1})
+v=VariableExpression{id='v'} - ValueExpression{val=1}
+Print(VariableExpression{id='v'})
+
+SymTable:
+v -> 4
+
+Out:
+
+Heap:
+{}
+FileTable:
+
+================================================
+
+
+================================================
+Id=7
+ExeStack:
+Print(VariableExpression{id='v'})
+while((VariableExpression{id='v'}>ValueExpression{val=0})) (Print(VariableExpression{id='v'});v=VariableExpression{id='v'} - ValueExpression{val=1})
+v=VariableExpression{id='v'} - ValueExpression{val=1}
+Print(VariableExpression{id='v'})
+
+SymTable:
+v -> 4
+
+Out:
+
+Heap:
+{}
+FileTable:
+
+================================================
+
+
+================================================
+Id=7
+ExeStack:
+Print(VariableExpression{id='v'})
+while((VariableExpression{id='v'}>ValueExpression{val=0})) (Print(VariableExpression{id='v'});v=VariableExpression{id='v'} - ValueExpression{val=1})
+v=VariableExpression{id='v'} - ValueExpression{val=1}
+
+SymTable:
+v -> 4
+
+Out:
+4
+
+Heap:
+{}
+FileTable:
+
+================================================
+
+
+================================================
+Id=7
+ExeStack:
+Print(VariableExpression{id='v'})
+while((VariableExpression{id='v'}>ValueExpression{val=0})) (Print(VariableExpression{id='v'});v=VariableExpression{id='v'} - ValueExpression{val=1})
+v=VariableExpression{id='v'} - ValueExpression{val=1}
+
+SymTable:
+v -> 4
+
+Out:
+4
+
+Heap:
+{}
+FileTable:
+
+================================================
+
+
+================================================
+Id=7
+ExeStack:
+Print(VariableExpression{id='v'})
+while((VariableExpression{id='v'}>ValueExpression{val=0})) (Print(VariableExpression{id='v'});v=VariableExpression{id='v'} - ValueExpression{val=1})
+
+SymTable:
+v -> 3
+
+Out:
+4
+
+Heap:
+{}
+FileTable:
+
+================================================
+
+
+================================================
+Id=7
+ExeStack:
+Print(VariableExpression{id='v'})
+while((VariableExpression{id='v'}>ValueExpression{val=0})) (Print(VariableExpression{id='v'});v=VariableExpression{id='v'} - ValueExpression{val=1})
+
+SymTable:
+v -> 3
+
+Out:
+4
+
+Heap:
+{}
+FileTable:
+
+================================================
+
+
+================================================
+Id=7
+ExeStack:
+Print(VariableExpression{id='v'})
+while((VariableExpression{id='v'}>ValueExpression{val=0})) (Print(VariableExpression{id='v'});v=VariableExpression{id='v'} - ValueExpression{val=1})
+(Print(VariableExpression{id='v'});v=VariableExpression{id='v'} - ValueExpression{val=1})
+
+SymTable:
+v -> 3
+
+Out:
+4
+
+Heap:
+{}
+FileTable:
+
+================================================
+
+
+================================================
+Id=7
+ExeStack:
+Print(VariableExpression{id='v'})
+while((VariableExpression{id='v'}>ValueExpression{val=0})) (Print(VariableExpression{id='v'});v=VariableExpression{id='v'} - ValueExpression{val=1})
+(Print(VariableExpression{id='v'});v=VariableExpression{id='v'} - ValueExpression{val=1})
+
+SymTable:
+v -> 3
+
+Out:
+4
+
+Heap:
+{}
+FileTable:
+
+================================================
+
+
+================================================
+Id=7
+ExeStack:
+Print(VariableExpression{id='v'})
+while((VariableExpression{id='v'}>ValueExpression{val=0})) (Print(VariableExpression{id='v'});v=VariableExpression{id='v'} - ValueExpression{val=1})
+v=VariableExpression{id='v'} - ValueExpression{val=1}
+Print(VariableExpression{id='v'})
+
+SymTable:
+v -> 3
+
+Out:
+4
+
+Heap:
+{}
+FileTable:
+
+================================================
+
+
+================================================
+Id=7
+ExeStack:
+Print(VariableExpression{id='v'})
+while((VariableExpression{id='v'}>ValueExpression{val=0})) (Print(VariableExpression{id='v'});v=VariableExpression{id='v'} - ValueExpression{val=1})
+v=VariableExpression{id='v'} - ValueExpression{val=1}
+Print(VariableExpression{id='v'})
+
+SymTable:
+v -> 3
+
+Out:
+4
+
+Heap:
+{}
+FileTable:
+
+================================================
+
+
+================================================
+Id=7
+ExeStack:
+Print(VariableExpression{id='v'})
+while((VariableExpression{id='v'}>ValueExpression{val=0})) (Print(VariableExpression{id='v'});v=VariableExpression{id='v'} - ValueExpression{val=1})
+v=VariableExpression{id='v'} - ValueExpression{val=1}
+
+SymTable:
+v -> 3
+
+Out:
+4
+3
+
+Heap:
+{}
+FileTable:
+
+================================================
+
+
+================================================
+Id=7
+ExeStack:
+Print(VariableExpression{id='v'})
+while((VariableExpression{id='v'}>ValueExpression{val=0})) (Print(VariableExpression{id='v'});v=VariableExpression{id='v'} - ValueExpression{val=1})
+v=VariableExpression{id='v'} - ValueExpression{val=1}
+
+SymTable:
+v -> 3
+
+Out:
+4
+3
+
+Heap:
+{}
+FileTable:
+
+================================================
+
+
+================================================
+Id=7
+ExeStack:
+Print(VariableExpression{id='v'})
+while((VariableExpression{id='v'}>ValueExpression{val=0})) (Print(VariableExpression{id='v'});v=VariableExpression{id='v'} - ValueExpression{val=1})
+
+SymTable:
+v -> 2
+
+Out:
+4
+3
+
+Heap:
+{}
+FileTable:
+
+================================================
+
+
+================================================
+Id=7
+ExeStack:
+Print(VariableExpression{id='v'})
+while((VariableExpression{id='v'}>ValueExpression{val=0})) (Print(VariableExpression{id='v'});v=VariableExpression{id='v'} - ValueExpression{val=1})
+
+SymTable:
+v -> 2
+
+Out:
+4
+3
+
+Heap:
+{}
+FileTable:
+
+================================================
+
+
+================================================
+Id=7
+ExeStack:
+Print(VariableExpression{id='v'})
+while((VariableExpression{id='v'}>ValueExpression{val=0})) (Print(VariableExpression{id='v'});v=VariableExpression{id='v'} - ValueExpression{val=1})
+(Print(VariableExpression{id='v'});v=VariableExpression{id='v'} - ValueExpression{val=1})
+
+SymTable:
+v -> 2
+
+Out:
+4
+3
+
+Heap:
+{}
+FileTable:
+
+================================================
+
+
+================================================
+Id=7
+ExeStack:
+Print(VariableExpression{id='v'})
+while((VariableExpression{id='v'}>ValueExpression{val=0})) (Print(VariableExpression{id='v'});v=VariableExpression{id='v'} - ValueExpression{val=1})
+(Print(VariableExpression{id='v'});v=VariableExpression{id='v'} - ValueExpression{val=1})
+
+SymTable:
+v -> 2
+
+Out:
+4
+3
+
+Heap:
+{}
+FileTable:
+
+================================================
+
+
+================================================
+Id=7
+ExeStack:
+Print(VariableExpression{id='v'})
+while((VariableExpression{id='v'}>ValueExpression{val=0})) (Print(VariableExpression{id='v'});v=VariableExpression{id='v'} - ValueExpression{val=1})
+v=VariableExpression{id='v'} - ValueExpression{val=1}
+Print(VariableExpression{id='v'})
+
+SymTable:
+v -> 2
+
+Out:
+4
+3
+
+Heap:
+{}
+FileTable:
+
+================================================
+
+
+================================================
+Id=7
+ExeStack:
+Print(VariableExpression{id='v'})
+while((VariableExpression{id='v'}>ValueExpression{val=0})) (Print(VariableExpression{id='v'});v=VariableExpression{id='v'} - ValueExpression{val=1})
+v=VariableExpression{id='v'} - ValueExpression{val=1}
+Print(VariableExpression{id='v'})
+
+SymTable:
+v -> 2
+
+Out:
+4
+3
+
+Heap:
+{}
+FileTable:
+
+================================================
+
+
+================================================
+Id=7
+ExeStack:
+Print(VariableExpression{id='v'})
+while((VariableExpression{id='v'}>ValueExpression{val=0})) (Print(VariableExpression{id='v'});v=VariableExpression{id='v'} - ValueExpression{val=1})
+v=VariableExpression{id='v'} - ValueExpression{val=1}
+
+SymTable:
+v -> 2
+
+Out:
+4
+3
+2
+
+Heap:
+{}
+FileTable:
+
+================================================
+
+
+================================================
+Id=7
+ExeStack:
+Print(VariableExpression{id='v'})
+while((VariableExpression{id='v'}>ValueExpression{val=0})) (Print(VariableExpression{id='v'});v=VariableExpression{id='v'} - ValueExpression{val=1})
+v=VariableExpression{id='v'} - ValueExpression{val=1}
+
+SymTable:
+v -> 2
+
+Out:
+4
+3
+2
+
+Heap:
+{}
+FileTable:
+
+================================================
+
+
+================================================
+Id=7
+ExeStack:
+Print(VariableExpression{id='v'})
+while((VariableExpression{id='v'}>ValueExpression{val=0})) (Print(VariableExpression{id='v'});v=VariableExpression{id='v'} - ValueExpression{val=1})
+
+SymTable:
+v -> 1
+
+Out:
+4
+3
+2
+
+Heap:
+{}
+FileTable:
+
+================================================
+
+
+================================================
+Id=7
+ExeStack:
+Print(VariableExpression{id='v'})
+while((VariableExpression{id='v'}>ValueExpression{val=0})) (Print(VariableExpression{id='v'});v=VariableExpression{id='v'} - ValueExpression{val=1})
+
+SymTable:
+v -> 1
+
+Out:
+4
+3
+2
+
+Heap:
+{}
+FileTable:
+
+================================================
+
+
+================================================
+Id=7
+ExeStack:
+Print(VariableExpression{id='v'})
+while((VariableExpression{id='v'}>ValueExpression{val=0})) (Print(VariableExpression{id='v'});v=VariableExpression{id='v'} - ValueExpression{val=1})
+(Print(VariableExpression{id='v'});v=VariableExpression{id='v'} - ValueExpression{val=1})
+
+SymTable:
+v -> 1
+
+Out:
+4
+3
+2
+
+Heap:
+{}
+FileTable:
+
+================================================
+
+
+================================================
+Id=7
+ExeStack:
+Print(VariableExpression{id='v'})
+while((VariableExpression{id='v'}>ValueExpression{val=0})) (Print(VariableExpression{id='v'});v=VariableExpression{id='v'} - ValueExpression{val=1})
+(Print(VariableExpression{id='v'});v=VariableExpression{id='v'} - ValueExpression{val=1})
+
+SymTable:
+v -> 1
+
+Out:
+4
+3
+2
+
+Heap:
+{}
+FileTable:
+
+================================================
+
+
+================================================
+Id=7
+ExeStack:
+Print(VariableExpression{id='v'})
+while((VariableExpression{id='v'}>ValueExpression{val=0})) (Print(VariableExpression{id='v'});v=VariableExpression{id='v'} - ValueExpression{val=1})
+v=VariableExpression{id='v'} - ValueExpression{val=1}
+Print(VariableExpression{id='v'})
+
+SymTable:
+v -> 1
+
+Out:
+4
+3
+2
+
+Heap:
+{}
+FileTable:
+
+================================================
+
+
+================================================
+Id=7
+ExeStack:
+Print(VariableExpression{id='v'})
+while((VariableExpression{id='v'}>ValueExpression{val=0})) (Print(VariableExpression{id='v'});v=VariableExpression{id='v'} - ValueExpression{val=1})
+v=VariableExpression{id='v'} - ValueExpression{val=1}
+Print(VariableExpression{id='v'})
+
+SymTable:
+v -> 1
+
+Out:
+4
+3
+2
+
+Heap:
+{}
+FileTable:
+
+================================================
+
+
+================================================
+Id=7
+ExeStack:
+Print(VariableExpression{id='v'})
+while((VariableExpression{id='v'}>ValueExpression{val=0})) (Print(VariableExpression{id='v'});v=VariableExpression{id='v'} - ValueExpression{val=1})
+v=VariableExpression{id='v'} - ValueExpression{val=1}
+
+SymTable:
+v -> 1
+
+Out:
+4
+3
+2
+1
+
+Heap:
+{}
+FileTable:
+
+================================================
+
+
+================================================
+Id=7
+ExeStack:
+Print(VariableExpression{id='v'})
+while((VariableExpression{id='v'}>ValueExpression{val=0})) (Print(VariableExpression{id='v'});v=VariableExpression{id='v'} - ValueExpression{val=1})
+v=VariableExpression{id='v'} - ValueExpression{val=1}
+
+SymTable:
+v -> 1
+
+Out:
+4
+3
+2
+1
+
+Heap:
+{}
+FileTable:
+
+================================================
+
+
+================================================
+Id=7
+ExeStack:
+Print(VariableExpression{id='v'})
+while((VariableExpression{id='v'}>ValueExpression{val=0})) (Print(VariableExpression{id='v'});v=VariableExpression{id='v'} - ValueExpression{val=1})
+
+SymTable:
+v -> 0
+
+Out:
+4
+3
+2
+1
+
+Heap:
+{}
+FileTable:
+
+================================================
+
+
+================================================
+Id=7
+ExeStack:
+Print(VariableExpression{id='v'})
+while((VariableExpression{id='v'}>ValueExpression{val=0})) (Print(VariableExpression{id='v'});v=VariableExpression{id='v'} - ValueExpression{val=1})
+
+SymTable:
+v -> 0
+
+Out:
+4
+3
+2
+1
+
+Heap:
+{}
+FileTable:
+
+================================================
+
+
+================================================
+Id=7
+ExeStack:
+Print(VariableExpression{id='v'})
+
+SymTable:
+v -> 0
+
+Out:
+4
+3
+2
+1
+
+Heap:
+{}
+FileTable:
+
+================================================
+
+
+================================================
+Id=7
+ExeStack:
+Print(VariableExpression{id='v'})
+
+SymTable:
+v -> 0
+
+Out:
+4
+3
+2
+1
+
+Heap:
+{}
+FileTable:
+
+================================================
+
+
+================================================
+Id=7
+ExeStack:
+
+SymTable:
+v -> 0
+
+Out:
+4
+3
+2
+1
+0
+
+Heap:
+{}
+FileTable:
+
+================================================
+
+
+================================================
+Id=6
+ExeStack:
+(Ref(int) v;(new(v, ValueExpression{val=20});(Ref(Ref(int)) a;(new(a, VariableExpression{id='v'});(new(v, ValueExpression{val=30});Print(rH(rH(VariableExpression{id='a'}))))))))
+
+SymTable:
+
+Out:
+
+Heap:
+{}
+FileTable:
+
+================================================
+
+
+================================================
+Id=6
+ExeStack:
+(new(v, ValueExpression{val=20});(Ref(Ref(int)) a;(new(a, VariableExpression{id='v'});(new(v, ValueExpression{val=30});Print(rH(rH(VariableExpression{id='a'})))))))
+Ref(int) v
+
+SymTable:
+
+Out:
+
+Heap:
+{}
+FileTable:
+
+================================================
+
+
+================================================
+Id=6
+ExeStack:
+(new(v, ValueExpression{val=20});(Ref(Ref(int)) a;(new(a, VariableExpression{id='v'});(new(v, ValueExpression{val=30});Print(rH(rH(VariableExpression{id='a'})))))))
+Ref(int) v
+
+SymTable:
+
+Out:
+
+Heap:
+{}
+FileTable:
+
+================================================
+
+
+================================================
+Id=6
+ExeStack:
+(new(v, ValueExpression{val=20});(Ref(Ref(int)) a;(new(a, VariableExpression{id='v'});(new(v, ValueExpression{val=30});Print(rH(rH(VariableExpression{id='a'})))))))
+
+SymTable:
+v -> (0, int)
+
+Out:
+
+Heap:
+{}
+FileTable:
+
+================================================
+
+
+================================================
+Id=6
+ExeStack:
+(new(v, ValueExpression{val=20});(Ref(Ref(int)) a;(new(a, VariableExpression{id='v'});(new(v, ValueExpression{val=30});Print(rH(rH(VariableExpression{id='a'})))))))
+
+SymTable:
+v -> (0, int)
+
+Out:
+
+Heap:
+{}
+FileTable:
+
+================================================
+
+
+================================================
+Id=6
+ExeStack:
+(Ref(Ref(int)) a;(new(a, VariableExpression{id='v'});(new(v, ValueExpression{val=30});Print(rH(rH(VariableExpression{id='a'}))))))
+new(v, ValueExpression{val=20})
+
+SymTable:
+v -> (0, int)
+
+Out:
+
+Heap:
+{}
+FileTable:
+
+================================================
+
+
+================================================
+Id=6
+ExeStack:
+(Ref(Ref(int)) a;(new(a, VariableExpression{id='v'});(new(v, ValueExpression{val=30});Print(rH(rH(VariableExpression{id='a'}))))))
+new(v, ValueExpression{val=20})
+
+SymTable:
+v -> (0, int)
+
+Out:
+
+Heap:
+{}
+FileTable:
+
+================================================
+
+
+================================================
+Id=6
+ExeStack:
+(Ref(Ref(int)) a;(new(a, VariableExpression{id='v'});(new(v, ValueExpression{val=30});Print(rH(rH(VariableExpression{id='a'}))))))
+
+SymTable:
+v -> (1, int)
+
+Out:
+
+Heap:
+{1=20}
+FileTable:
+
+================================================
+
+
+================================================
+Id=6
+ExeStack:
+(Ref(Ref(int)) a;(new(a, VariableExpression{id='v'});(new(v, ValueExpression{val=30});Print(rH(rH(VariableExpression{id='a'}))))))
+
+SymTable:
+v -> (1, int)
+
+Out:
+
+Heap:
+{1=20}
+FileTable:
+
+================================================
+
+
+================================================
+Id=6
+ExeStack:
+(new(a, VariableExpression{id='v'});(new(v, ValueExpression{val=30});Print(rH(rH(VariableExpression{id='a'})))))
+Ref(Ref(int)) a
+
+SymTable:
+v -> (1, int)
+
+Out:
+
+Heap:
+{1=20}
+FileTable:
+
+================================================
+
+
+================================================
+Id=6
+ExeStack:
+(new(a, VariableExpression{id='v'});(new(v, ValueExpression{val=30});Print(rH(rH(VariableExpression{id='a'})))))
+Ref(Ref(int)) a
+
+SymTable:
+v -> (1, int)
+
+Out:
+
+Heap:
+{1=20}
+FileTable:
+
+================================================
+
+
+================================================
+Id=6
+ExeStack:
+(new(a, VariableExpression{id='v'});(new(v, ValueExpression{val=30});Print(rH(rH(VariableExpression{id='a'})))))
+
+SymTable:
+a -> (0, Ref(int))
+v -> (1, int)
+
+Out:
+
+Heap:
+{1=20}
+FileTable:
+
+================================================
+
+
+================================================
+Id=6
+ExeStack:
+(new(a, VariableExpression{id='v'});(new(v, ValueExpression{val=30});Print(rH(rH(VariableExpression{id='a'})))))
+
+SymTable:
+a -> (0, Ref(int))
+v -> (1, int)
+
+Out:
+
+Heap:
+{1=20}
+FileTable:
+
+================================================
+
+
+================================================
+Id=6
+ExeStack:
+(new(v, ValueExpression{val=30});Print(rH(rH(VariableExpression{id='a'}))))
+new(a, VariableExpression{id='v'})
+
+SymTable:
+a -> (0, Ref(int))
+v -> (1, int)
+
+Out:
+
+Heap:
+{1=20}
+FileTable:
+
+================================================
+
+
+================================================
+Id=6
+ExeStack:
+(new(v, ValueExpression{val=30});Print(rH(rH(VariableExpression{id='a'}))))
+new(a, VariableExpression{id='v'})
+
+SymTable:
+a -> (0, Ref(int))
+v -> (1, int)
+
+Out:
+
+Heap:
+{1=20}
+FileTable:
+
+================================================
+
+
+================================================
+Id=6
+ExeStack:
+(new(v, ValueExpression{val=30});Print(rH(rH(VariableExpression{id='a'}))))
+
+SymTable:
+a -> (2, Ref(int))
+v -> (1, int)
+
+Out:
+
+Heap:
+{1=20, 2=(1, int)}
+FileTable:
+
+================================================
+
+
+================================================
+Id=6
+ExeStack:
+(new(v, ValueExpression{val=30});Print(rH(rH(VariableExpression{id='a'}))))
+
+SymTable:
+a -> (2, Ref(int))
+v -> (1, int)
+
+Out:
+
+Heap:
+{1=20, 2=(1, int)}
+FileTable:
+
+================================================
+
+
+================================================
+Id=6
+ExeStack:
+Print(rH(rH(VariableExpression{id='a'})))
+new(v, ValueExpression{val=30})
+
+SymTable:
+a -> (2, Ref(int))
+v -> (1, int)
+
+Out:
+
+Heap:
+{1=20, 2=(1, int)}
+FileTable:
+
+================================================
+
+
+================================================
+Id=6
+ExeStack:
+Print(rH(rH(VariableExpression{id='a'})))
+new(v, ValueExpression{val=30})
+
+SymTable:
+a -> (2, Ref(int))
+v -> (1, int)
+
+Out:
+
+Heap:
+{1=20, 2=(1, int)}
+FileTable:
+
+================================================
+
+
+================================================
+Id=6
+ExeStack:
+Print(rH(rH(VariableExpression{id='a'})))
+
+SymTable:
+a -> (2, Ref(int))
+v -> (3, int)
+
+Out:
+
+Heap:
+{1=20, 2=(1, int), 3=30}
+FileTable:
+
+================================================
+
+
+================================================
+Id=6
+ExeStack:
+Print(rH(rH(VariableExpression{id='a'})))
+
+SymTable:
+a -> (2, Ref(int))
+v -> (3, int)
+
+Out:
+
+Heap:
+{1=20, 2=(1, int), 3=30}
+FileTable:
+
+================================================
+
+
+================================================
+Id=6
+ExeStack:
+
+SymTable:
+a -> (2, Ref(int))
+v -> (3, int)
+
+Out:
+20
+
+Heap:
+{1=20, 2=(1, int), 3=30}
+FileTable:
+
+================================================
+
+
+================================================
+Id=5
+ExeStack:
+(Ref(int) v;(new(v, ValueExpression{val=20});(Print(rH(VariableExpression{id='v'}));(new(v, ValueExpression{val=30});Print(rH(VariableExpression{id='v'}) + ValueExpression{val=5})))))
+
+SymTable:
+
+Out:
+
+Heap:
+{}
+FileTable:
+
+================================================
+
+
+================================================
+Id=5
+ExeStack:
+(new(v, ValueExpression{val=20});(Print(rH(VariableExpression{id='v'}));(new(v, ValueExpression{val=30});Print(rH(VariableExpression{id='v'}) + ValueExpression{val=5}))))
+Ref(int) v
+
+SymTable:
+
+Out:
+
+Heap:
+{}
+FileTable:
+
+================================================
+
+
+================================================
+Id=5
+ExeStack:
+(new(v, ValueExpression{val=20});(Print(rH(VariableExpression{id='v'}));(new(v, ValueExpression{val=30});Print(rH(VariableExpression{id='v'}) + ValueExpression{val=5}))))
+Ref(int) v
+
+SymTable:
+
+Out:
+
+Heap:
+{}
+FileTable:
+
+================================================
+
+
+================================================
+Id=5
+ExeStack:
+(new(v, ValueExpression{val=20});(Print(rH(VariableExpression{id='v'}));(new(v, ValueExpression{val=30});Print(rH(VariableExpression{id='v'}) + ValueExpression{val=5}))))
+
+SymTable:
+v -> (0, int)
+
+Out:
+
+Heap:
+{}
+FileTable:
+
+================================================
+
+
+================================================
+Id=5
+ExeStack:
+(new(v, ValueExpression{val=20});(Print(rH(VariableExpression{id='v'}));(new(v, ValueExpression{val=30});Print(rH(VariableExpression{id='v'}) + ValueExpression{val=5}))))
+
+SymTable:
+v -> (0, int)
+
+Out:
+
+Heap:
+{}
+FileTable:
+
+================================================
+
+
+================================================
+Id=5
+ExeStack:
+(Print(rH(VariableExpression{id='v'}));(new(v, ValueExpression{val=30});Print(rH(VariableExpression{id='v'}) + ValueExpression{val=5})))
+new(v, ValueExpression{val=20})
+
+SymTable:
+v -> (0, int)
+
+Out:
+
+Heap:
+{}
+FileTable:
+
+================================================
+
+
+================================================
+Id=5
+ExeStack:
+(Print(rH(VariableExpression{id='v'}));(new(v, ValueExpression{val=30});Print(rH(VariableExpression{id='v'}) + ValueExpression{val=5})))
+new(v, ValueExpression{val=20})
+
+SymTable:
+v -> (0, int)
+
+Out:
+
+Heap:
+{}
+FileTable:
+
+================================================
+
+
+================================================
+Id=5
+ExeStack:
+(Print(rH(VariableExpression{id='v'}));(new(v, ValueExpression{val=30});Print(rH(VariableExpression{id='v'}) + ValueExpression{val=5})))
+
+SymTable:
+v -> (1, int)
+
+Out:
+
+Heap:
+{1=20}
+FileTable:
+
+================================================
+
+
+================================================
+Id=5
+ExeStack:
+(Print(rH(VariableExpression{id='v'}));(new(v, ValueExpression{val=30});Print(rH(VariableExpression{id='v'}) + ValueExpression{val=5})))
+
+SymTable:
+v -> (1, int)
+
+Out:
+
+Heap:
+{1=20}
+FileTable:
+
+================================================
+
+
+================================================
+Id=5
+ExeStack:
+(new(v, ValueExpression{val=30});Print(rH(VariableExpression{id='v'}) + ValueExpression{val=5}))
+Print(rH(VariableExpression{id='v'}))
+
+SymTable:
+v -> (1, int)
+
+Out:
+
+Heap:
+{1=20}
+FileTable:
+
+================================================
+
+
+================================================
+Id=5
+ExeStack:
+(new(v, ValueExpression{val=30});Print(rH(VariableExpression{id='v'}) + ValueExpression{val=5}))
+Print(rH(VariableExpression{id='v'}))
+
+SymTable:
+v -> (1, int)
+
+Out:
+
+Heap:
+{1=20}
+FileTable:
+
+================================================
+
+
+================================================
+Id=5
+ExeStack:
+(new(v, ValueExpression{val=30});Print(rH(VariableExpression{id='v'}) + ValueExpression{val=5}))
+
+SymTable:
+v -> (1, int)
+
+Out:
+20
+
+Heap:
+{1=20}
+FileTable:
+
+================================================
+
+
+================================================
+Id=5
+ExeStack:
+(new(v, ValueExpression{val=30});Print(rH(VariableExpression{id='v'}) + ValueExpression{val=5}))
+
+SymTable:
+v -> (1, int)
+
+Out:
+20
+
+Heap:
+{1=20}
+FileTable:
+
+================================================
+
+
+================================================
+Id=5
+ExeStack:
+Print(rH(VariableExpression{id='v'}) + ValueExpression{val=5})
+new(v, ValueExpression{val=30})
+
+SymTable:
+v -> (1, int)
+
+Out:
+20
+
+Heap:
+{1=20}
+FileTable:
+
+================================================
+
+
+================================================
+Id=5
+ExeStack:
+Print(rH(VariableExpression{id='v'}) + ValueExpression{val=5})
+new(v, ValueExpression{val=30})
+
+SymTable:
+v -> (1, int)
+
+Out:
+20
+
+Heap:
+{1=20}
+FileTable:
+
+================================================
+
+
+================================================
+Id=5
+ExeStack:
+Print(rH(VariableExpression{id='v'}) + ValueExpression{val=5})
+
+SymTable:
+v -> (2, int)
+
+Out:
+20
+
+Heap:
+{1=20, 2=30}
+FileTable:
+
+================================================
+
+
+================================================
+Id=5
+ExeStack:
+Print(rH(VariableExpression{id='v'}) + ValueExpression{val=5})
+
+SymTable:
+v -> (2, int)
+
+Out:
+20
+
+Heap:
+{2=30}
+FileTable:
+
+================================================
+
+
+================================================
+Id=5
+ExeStack:
+
+SymTable:
+v -> (2, int)
+
+Out:
+20
+35
+
+Heap:
+{2=30}
+FileTable:
+
+================================================
+
+
+================================================
+Id=8
+ExeStack:
+(int v;(Ref(int) a;(v=ValueExpression{val=10};(new(a, ValueExpression{val=22});(fork((wH(a, ValueExpression{val=30});(v=ValueExpression{val=32};(Print(VariableExpression{id='v'});Print(rH(VariableExpression{id='a'}))))));(Print(VariableExpression{id='v'});Print(rH(VariableExpression{id='a'}))))))))
+
+SymTable:
+
+Out:
+
+Heap:
+{}
+FileTable:
+
+================================================
+
+
+================================================
+Id=8
+ExeStack:
+(Ref(int) a;(v=ValueExpression{val=10};(new(a, ValueExpression{val=22});(fork((wH(a, ValueExpression{val=30});(v=ValueExpression{val=32};(Print(VariableExpression{id='v'});Print(rH(VariableExpression{id='a'}))))));(Print(VariableExpression{id='v'});Print(rH(VariableExpression{id='a'})))))))
+int v
+
+SymTable:
+
+Out:
+
+Heap:
+{}
+FileTable:
+
+================================================
+
+
+================================================
+Id=8
+ExeStack:
+(Ref(int) a;(v=ValueExpression{val=10};(new(a, ValueExpression{val=22});(fork((wH(a, ValueExpression{val=30});(v=ValueExpression{val=32};(Print(VariableExpression{id='v'});Print(rH(VariableExpression{id='a'}))))));(Print(VariableExpression{id='v'});Print(rH(VariableExpression{id='a'})))))))
+int v
+
+SymTable:
+
+Out:
+
+Heap:
+{}
+FileTable:
+
+================================================
+
+
+================================================
+Id=8
+ExeStack:
+(Ref(int) a;(v=ValueExpression{val=10};(new(a, ValueExpression{val=22});(fork((wH(a, ValueExpression{val=30});(v=ValueExpression{val=32};(Print(VariableExpression{id='v'});Print(rH(VariableExpression{id='a'}))))));(Print(VariableExpression{id='v'});Print(rH(VariableExpression{id='a'})))))))
+
+SymTable:
+v -> 0
+
+Out:
+
+Heap:
+{}
+FileTable:
+
+================================================
+
+
+================================================
+Id=8
+ExeStack:
+(Ref(int) a;(v=ValueExpression{val=10};(new(a, ValueExpression{val=22});(fork((wH(a, ValueExpression{val=30});(v=ValueExpression{val=32};(Print(VariableExpression{id='v'});Print(rH(VariableExpression{id='a'}))))));(Print(VariableExpression{id='v'});Print(rH(VariableExpression{id='a'})))))))
+
+SymTable:
+v -> 0
+
+Out:
+
+Heap:
+{}
+FileTable:
+
+================================================
+
+
+================================================
+Id=8
+ExeStack:
+(v=ValueExpression{val=10};(new(a, ValueExpression{val=22});(fork((wH(a, ValueExpression{val=30});(v=ValueExpression{val=32};(Print(VariableExpression{id='v'});Print(rH(VariableExpression{id='a'}))))));(Print(VariableExpression{id='v'});Print(rH(VariableExpression{id='a'}))))))
+Ref(int) a
+
+SymTable:
+v -> 0
+
+Out:
+
+Heap:
+{}
+FileTable:
+
+================================================
+
+
+================================================
+Id=8
+ExeStack:
+(v=ValueExpression{val=10};(new(a, ValueExpression{val=22});(fork((wH(a, ValueExpression{val=30});(v=ValueExpression{val=32};(Print(VariableExpression{id='v'});Print(rH(VariableExpression{id='a'}))))));(Print(VariableExpression{id='v'});Print(rH(VariableExpression{id='a'}))))))
+Ref(int) a
+
+SymTable:
+v -> 0
+
+Out:
+
+Heap:
+{}
+FileTable:
+
+================================================
+
+
+================================================
+Id=8
+ExeStack:
+(v=ValueExpression{val=10};(new(a, ValueExpression{val=22});(fork((wH(a, ValueExpression{val=30});(v=ValueExpression{val=32};(Print(VariableExpression{id='v'});Print(rH(VariableExpression{id='a'}))))));(Print(VariableExpression{id='v'});Print(rH(VariableExpression{id='a'}))))))
+
+SymTable:
+a -> (0, int)
+v -> 0
+
+Out:
+
+Heap:
+{}
+FileTable:
+
+================================================
+
+
+================================================
+Id=8
+ExeStack:
+(v=ValueExpression{val=10};(new(a, ValueExpression{val=22});(fork((wH(a, ValueExpression{val=30});(v=ValueExpression{val=32};(Print(VariableExpression{id='v'});Print(rH(VariableExpression{id='a'}))))));(Print(VariableExpression{id='v'});Print(rH(VariableExpression{id='a'}))))))
+
+SymTable:
+a -> (0, int)
+v -> 0
+
+Out:
+
+Heap:
+{}
+FileTable:
+
+================================================
+
+
+================================================
+Id=8
+ExeStack:
+(new(a, ValueExpression{val=22});(fork((wH(a, ValueExpression{val=30});(v=ValueExpression{val=32};(Print(VariableExpression{id='v'});Print(rH(VariableExpression{id='a'}))))));(Print(VariableExpression{id='v'});Print(rH(VariableExpression{id='a'})))))
+v=ValueExpression{val=10}
+
+SymTable:
+a -> (0, int)
+v -> 0
+
+Out:
+
+Heap:
+{}
+FileTable:
+
+================================================
+
+
+================================================
+Id=8
+ExeStack:
+(new(a, ValueExpression{val=22});(fork((wH(a, ValueExpression{val=30});(v=ValueExpression{val=32};(Print(VariableExpression{id='v'});Print(rH(VariableExpression{id='a'}))))));(Print(VariableExpression{id='v'});Print(rH(VariableExpression{id='a'})))))
+v=ValueExpression{val=10}
+
+SymTable:
+a -> (0, int)
+v -> 0
+
+Out:
+
+Heap:
+{}
+FileTable:
+
+================================================
+
+
+================================================
+Id=8
+ExeStack:
+(new(a, ValueExpression{val=22});(fork((wH(a, ValueExpression{val=30});(v=ValueExpression{val=32};(Print(VariableExpression{id='v'});Print(rH(VariableExpression{id='a'}))))));(Print(VariableExpression{id='v'});Print(rH(VariableExpression{id='a'})))))
+
+SymTable:
+a -> (0, int)
+v -> 10
+
+Out:
+
+Heap:
+{}
+FileTable:
+
+================================================
+
+
+================================================
+Id=8
+ExeStack:
+(new(a, ValueExpression{val=22});(fork((wH(a, ValueExpression{val=30});(v=ValueExpression{val=32};(Print(VariableExpression{id='v'});Print(rH(VariableExpression{id='a'}))))));(Print(VariableExpression{id='v'});Print(rH(VariableExpression{id='a'})))))
+
+SymTable:
+a -> (0, int)
+v -> 10
+
+Out:
+
+Heap:
+{}
+FileTable:
+
+================================================
+
+
+================================================
+Id=8
+ExeStack:
+(fork((wH(a, ValueExpression{val=30});(v=ValueExpression{val=32};(Print(VariableExpression{id='v'});Print(rH(VariableExpression{id='a'}))))));(Print(VariableExpression{id='v'});Print(rH(VariableExpression{id='a'}))))
+new(a, ValueExpression{val=22})
+
+SymTable:
+a -> (0, int)
+v -> 10
+
+Out:
+
+Heap:
+{}
+FileTable:
+
+================================================
+
+
+================================================
+Id=8
+ExeStack:
+(fork((wH(a, ValueExpression{val=30});(v=ValueExpression{val=32};(Print(VariableExpression{id='v'});Print(rH(VariableExpression{id='a'}))))));(Print(VariableExpression{id='v'});Print(rH(VariableExpression{id='a'}))))
+new(a, ValueExpression{val=22})
+
+SymTable:
+a -> (0, int)
+v -> 10
+
+Out:
+
+Heap:
+{}
+FileTable:
+
+================================================
+
+
+================================================
+Id=8
+ExeStack:
+(fork((wH(a, ValueExpression{val=30});(v=ValueExpression{val=32};(Print(VariableExpression{id='v'});Print(rH(VariableExpression{id='a'}))))));(Print(VariableExpression{id='v'});Print(rH(VariableExpression{id='a'}))))
+
+SymTable:
+a -> (1, int)
+v -> 10
+
+Out:
+
+Heap:
+{1=22}
+FileTable:
+
+================================================
+
+
+================================================
+Id=8
+ExeStack:
+(fork((wH(a, ValueExpression{val=30});(v=ValueExpression{val=32};(Print(VariableExpression{id='v'});Print(rH(VariableExpression{id='a'}))))));(Print(VariableExpression{id='v'});Print(rH(VariableExpression{id='a'}))))
+
+SymTable:
+a -> (1, int)
+v -> 10
+
+Out:
+
+Heap:
+{1=22}
+FileTable:
+
+================================================
+
+
+================================================
+Id=8
+ExeStack:
+(Print(VariableExpression{id='v'});Print(rH(VariableExpression{id='a'})))
+fork((wH(a, ValueExpression{val=30});(v=ValueExpression{val=32};(Print(VariableExpression{id='v'});Print(rH(VariableExpression{id='a'}))))))
+
+SymTable:
+a -> (1, int)
+v -> 10
+
+Out:
+
+Heap:
+{1=22}
+FileTable:
+
+================================================
+
+
+================================================
+Id=8
+ExeStack:
+(Print(VariableExpression{id='v'});Print(rH(VariableExpression{id='a'})))
+fork((wH(a, ValueExpression{val=30});(v=ValueExpression{val=32};(Print(VariableExpression{id='v'});Print(rH(VariableExpression{id='a'}))))))
+
+SymTable:
+a -> (1, int)
+v -> 10
+
+Out:
+
+Heap:
+{1=22}
+FileTable:
+
+================================================
+
+
+================================================
+Id=8
+ExeStack:
+(Print(VariableExpression{id='v'});Print(rH(VariableExpression{id='a'})))
+
+SymTable:
+a -> (1, int)
+v -> 10
+
+Out:
+
+Heap:
+{1=22}
+FileTable:
+
+================================================
+
+
+================================================
+Id=9
+ExeStack:
+(wH(a, ValueExpression{val=30});(v=ValueExpression{val=32};(Print(VariableExpression{id='v'});Print(rH(VariableExpression{id='a'})))))
+
+SymTable:
+a -> (1, int)
+v -> 10
+
+Out:
+
+Heap:
+{1=22}
+FileTable:
+
+================================================
+
+
+================================================
+Id=8
+ExeStack:
+(Print(VariableExpression{id='v'});Print(rH(VariableExpression{id='a'})))
+
+SymTable:
+a -> (1, int)
+v -> 10
+
+Out:
+
+Heap:
+{1=22}
+FileTable:
+
+================================================
+
+
+================================================
+Id=9
+ExeStack:
+(wH(a, ValueExpression{val=30});(v=ValueExpression{val=32};(Print(VariableExpression{id='v'});Print(rH(VariableExpression{id='a'})))))
+
+SymTable:
+a -> (1, int)
+v -> 10
+
+Out:
+
+Heap:
+{1=22}
+FileTable:
+
+================================================
+
+
+================================================
+Id=8
+ExeStack:
+Print(rH(VariableExpression{id='a'}))
+Print(VariableExpression{id='v'})
+
+SymTable:
+a -> (1, int)
+v -> 10
+
+Out:
+
+Heap:
+{1=22}
+FileTable:
+
+================================================
+
+
+================================================
+Id=9
+ExeStack:
+(v=ValueExpression{val=32};(Print(VariableExpression{id='v'});Print(rH(VariableExpression{id='a'}))))
+wH(a, ValueExpression{val=30})
+
+SymTable:
+a -> (1, int)
+v -> 10
+
+Out:
+
+Heap:
+{1=22}
+FileTable:
+
+================================================
+
+
+================================================
+Id=8
+ExeStack:
+Print(rH(VariableExpression{id='a'}))
+Print(VariableExpression{id='v'})
+
+SymTable:
+a -> (1, int)
+v -> 10
+
+Out:
+
+Heap:
+{1=22}
+FileTable:
+
+================================================
+
+
+================================================
+Id=9
+ExeStack:
+(v=ValueExpression{val=32};(Print(VariableExpression{id='v'});Print(rH(VariableExpression{id='a'}))))
+wH(a, ValueExpression{val=30})
+
+SymTable:
+a -> (1, int)
+v -> 10
+
+Out:
+
+Heap:
+{1=22}
+FileTable:
+
+================================================
+
+
+================================================
+Id=8
+ExeStack:
+Print(rH(VariableExpression{id='a'}))
+
+SymTable:
+a -> (1, int)
+v -> 10
+
+Out:
+10
+
+Heap:
+{1=30}
+FileTable:
+
+================================================
+
+
+================================================
+Id=9
+ExeStack:
+(v=ValueExpression{val=32};(Print(VariableExpression{id='v'});Print(rH(VariableExpression{id='a'}))))
+
+SymTable:
+a -> (1, int)
+v -> 10
+
+Out:
+10
+
+Heap:
+{1=30}
+FileTable:
+
+================================================
+
+
+================================================
+Id=8
+ExeStack:
+Print(rH(VariableExpression{id='a'}))
+
+SymTable:
+a -> (1, int)
+v -> 10
+
+Out:
+10
+
+Heap:
+{1=30}
+FileTable:
+
+================================================
+
+
+================================================
+Id=9
+ExeStack:
+(v=ValueExpression{val=32};(Print(VariableExpression{id='v'});Print(rH(VariableExpression{id='a'}))))
+
+SymTable:
+a -> (1, int)
+v -> 10
+
+Out:
+10
+
+Heap:
+{1=30}
+FileTable:
+
+================================================
+
+
+================================================
+Id=8
+ExeStack:
+
+SymTable:
+a -> (1, int)
+v -> 10
+
+Out:
+10
+30
+
+Heap:
+{1=30}
+FileTable:
+
+================================================
+
+
+================================================
+Id=9
+ExeStack:
+(Print(VariableExpression{id='v'});Print(rH(VariableExpression{id='a'})))
+v=ValueExpression{val=32}
+
+SymTable:
+a -> (1, int)
+v -> 10
+
+Out:
+10
+30
+
+Heap:
+{1=30}
+FileTable:
+
+================================================
+
+
+================================================
+Id=9
+ExeStack:
+(Print(VariableExpression{id='v'});Print(rH(VariableExpression{id='a'})))
+v=ValueExpression{val=32}
+
+SymTable:
+a -> (1, int)
+v -> 10
+
+Out:
+10
+30
+
+Heap:
+{1=30}
+FileTable:
+
+================================================
+
+
+================================================
+Id=9
+ExeStack:
+(Print(VariableExpression{id='v'});Print(rH(VariableExpression{id='a'})))
+
+SymTable:
+a -> (1, int)
+v -> 32
+
+Out:
+10
+30
+
+Heap:
+{1=30}
+FileTable:
+
+================================================
+
+
+================================================
+Id=9
+ExeStack:
+(Print(VariableExpression{id='v'});Print(rH(VariableExpression{id='a'})))
+
+SymTable:
+a -> (1, int)
+v -> 32
+
+Out:
+10
+30
+
+Heap:
+{1=30}
+FileTable:
+
+================================================
+
+
+================================================
+Id=9
+ExeStack:
+Print(rH(VariableExpression{id='a'}))
+Print(VariableExpression{id='v'})
+
+SymTable:
+a -> (1, int)
+v -> 32
+
+Out:
+10
+30
+
+Heap:
+{1=30}
+FileTable:
+
+================================================
+
+
+================================================
+Id=9
+ExeStack:
+Print(rH(VariableExpression{id='a'}))
+Print(VariableExpression{id='v'})
+
+SymTable:
+a -> (1, int)
+v -> 32
+
+Out:
+10
+30
+
+Heap:
+{1=30}
+FileTable:
+
+================================================
+
+
+================================================
+Id=9
+ExeStack:
+Print(rH(VariableExpression{id='a'}))
+
+SymTable:
+a -> (1, int)
+v -> 32
+
+Out:
+10
+30
+32
+
+Heap:
+{1=30}
+FileTable:
+
+================================================
+
+
+================================================
+Id=9
+ExeStack:
+Print(rH(VariableExpression{id='a'}))
+
+SymTable:
+a -> (1, int)
+v -> 32
+
+Out:
+10
+30
+32
+
+Heap:
+{1=30}
+FileTable:
+
+================================================
+
+
+================================================
+Id=9
+ExeStack:
+
+SymTable:
+a -> (1, int)
+v -> 32
+
+Out:
+10
+30
+32
+30
+
+Heap:
+{1=30}
+FileTable:
+
+================================================
+
